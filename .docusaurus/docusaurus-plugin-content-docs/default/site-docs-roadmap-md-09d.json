@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Roadmap",
+  "id": "Roadmap",
+  "isDocsHomePage": false,
+  "title": "Public Roadmap",
+  "description": "roadmap",
+  "source": "@site/docs/Roadmap.md",
+  "slug": "/Roadmap",
+  "permalink": "/Roadmap",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Roadmap.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/FAQ"
+  },
+  "next": {
+    "title": "Branding Guide",
+    "permalink": "/Branding-guide"
+  }
+}

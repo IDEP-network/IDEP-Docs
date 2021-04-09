@@ -1,0 +1,17 @@
+{
+  "unversionedId": "Welcome",
+  "id": "Welcome",
+  "isDocsHomePage": false,
+  "title": "Welcome",
+  "description": "Welcome to IDEP Docs.",
+  "source": "@site/docs/Welcome.md",
+  "slug": "/",
+  "permalink": "/",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Welcome.md",
+  "version": "current",
+  "sidebar": "docs",
+  "next": {
+    "title": "IDEP Litepaper",
+    "permalink": "/Litepaper"
+  }
+}

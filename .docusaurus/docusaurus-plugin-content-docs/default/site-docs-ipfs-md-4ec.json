@@ -1,0 +1,21 @@
+{
+  "unversionedId": "IPFS",
+  "id": "IPFS",
+  "isDocsHomePage": false,
+  "title": "IPFS-Private-Network",
+  "description": "We are running an IPFS-Private-Network with the following endpoints publicly available:",
+  "source": "@site/docs/IPFS.md",
+  "slug": "/IPFS",
+  "permalink": "/IPFS",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/IPFS.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "IDEP Litepaper",
+    "permalink": "/Litepaper"
+  },
+  "next": {
+    "title": "Modules",
+    "permalink": "/Modules"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "versionEditUrl": "https://github.com/IDEP-network/IDEP-Docs/docs",
+          "versionEditUrlLocalized": "https://github.com/IDEP-network/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/aidas/Desktop/IDEP-Docs/sidebars.js",
+          "contentPath": "/Users/aidas/Desktop/IDEP-Docs/docs",
+          "contentPathLocalized": "/Users/aidas/Desktop/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "Welcome",
+          "sidebars": {
+            "docs": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Welcome"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Litepaper"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Knowledge Base",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "IPFS"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Modules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "FAQ"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Branding-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "license"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/Branding-guide": "docs",
+            "/FAQ": "docs",
+            "/IPFS": "docs",
+            "/license": "docs",
+            "/Litepaper": "docs",
+            "/Modules": "docs",
+            "/Roadmap": "docs",
+            "/": "docs"
+          },
+          "docs": [
+            {
+              "unversionedId": "Branding-guide",
+              "id": "Branding-guide",
+              "isDocsHomePage": false,
+              "title": "Branding Guide",
+              "description": "Thank you for building your dapp with IDEP. This makes us happy!",
+              "source": "@site/docs/Branding-guide.md",
+              "slug": "/Branding-guide",
+              "permalink": "/Branding-guide",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Branding-guide.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Public Roadmap",
+                "permalink": "/Roadmap"
+              },
+              "next": {
+                "title": "License",
+                "permalink": "/license"
+              }
+            },
+            {
+              "unversionedId": "FAQ",
+              "id": "FAQ",
+              "isDocsHomePage": false,
+              "title": "FAQ",
+              "description": "What are NFTs?",
+              "source": "@site/docs/FAQ.md",
+              "slug": "/FAQ",
+              "permalink": "/FAQ",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/FAQ.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Modules",
+                "permalink": "/Modules"
+              },
+              "next": {
+                "title": "Public Roadmap",
+                "permalink": "/Roadmap"
+              }
+            },
+            {
+              "unversionedId": "IPFS",
+              "id": "IPFS",
+              "isDocsHomePage": false,
+              "title": "IPFS-Private-Network",
+              "description": "We are running an IPFS-Private-Network with the following endpoints publicly available:",
+              "source": "@site/docs/IPFS.md",
+              "slug": "/IPFS",
+              "permalink": "/IPFS",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/IPFS.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "IDEP Litepaper",
+                "permalink": "/Litepaper"
+              },
+              "next": {
+                "title": "Modules",
+                "permalink": "/Modules"
+              }
+            },
+            {
+              "unversionedId": "license",
+              "id": "license",
+              "isDocsHomePage": false,
+              "title": "License",
+              "description": "License",
+              "source": "@site/docs/license.md",
+              "slug": "/license",
+              "permalink": "/license",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/license.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Branding Guide",
+                "permalink": "/Branding-guide"
+              }
+            },
+            {
+              "unversionedId": "Litepaper",
+              "id": "Litepaper",
+              "isDocsHomePage": false,
+              "title": "IDEP Litepaper",
+              "description": "coverimage",
+              "source": "@site/docs/Litepaper.md",
+              "slug": "/Litepaper",
+              "permalink": "/Litepaper",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Litepaper.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "IPFS-Private-Network",
+                "permalink": "/IPFS"
+              }
+            },
+            {
+              "unversionedId": "Modules",
+              "id": "Modules",
+              "isDocsHomePage": false,
+              "title": "Modules",
+              "description": "Coming Soon...",
+              "source": "@site/docs/Modules.md",
+              "slug": "/Modules",
+              "permalink": "/Modules",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Modules.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "IPFS-Private-Network",
+                "permalink": "/IPFS"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/FAQ"
+              }
+            },
+            {
+              "unversionedId": "Roadmap",
+              "id": "Roadmap",
+              "isDocsHomePage": false,
+              "title": "Public Roadmap",
+              "description": "roadmap",
+              "source": "@site/docs/Roadmap.md",
+              "slug": "/Roadmap",
+              "permalink": "/Roadmap",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Roadmap.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "FAQ",
+                "permalink": "/FAQ"
+              },
+              "next": {
+                "title": "Branding Guide",
+                "permalink": "/Branding-guide"
+              }
+            },
+            {
+              "unversionedId": "Welcome",
+              "id": "Welcome",
+              "isDocsHomePage": false,
+              "title": "Welcome",
+              "description": "Welcome to IDEP Docs.",
+              "source": "@site/docs/Welcome.md",
+              "slug": "/",
+              "permalink": "/",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Welcome.md",
+              "version": "current",
+              "sidebar": "docs",
+              "next": {
+                "title": "IDEP Litepaper",
+                "permalink": "/Litepaper"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

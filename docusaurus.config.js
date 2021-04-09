@@ -67,18 +67,21 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        // Debug defaults to true in dev, false in prod
+        debug: undefined,
+        // Will be passed to @docusaurus/theme-classic.
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')],
+        },
+        // Will be passed to @docusaurus/plugin-content-docs (false to disable)
         docs: {
-          path: './',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/IDEP-network/IDEP-Docs',
+              'https://github.com/IDEP-network/IDEP-Docs',
         },
-        blog: false,
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+
       },
     ],
   ],

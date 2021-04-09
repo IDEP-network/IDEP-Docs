@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252aa92b-d6f4-4a69-8b9d-50f2f1c538c3" name="Default Changelist" comment="" />
+    <list default="true" id="252aa92b-d6f4-4a69-8b9d-50f2f1c538c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Branding-guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Branding-guide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/FAQ/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/FAQ/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/IPFS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/IPFS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Litepaper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Litepaper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Modules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Modules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Roadmap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Roadmap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/09daff52.2e86b787.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/1.9e969266.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/16.6895e1d2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/17.45c2864d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/17896441.96df0f3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/2.019144b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/2.019144b2.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/393be207.aef91441.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/4ec80ec2.dbaef89e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/519cc44b.e7e1ed73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/69ce70d3.4f350221.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/7afa52e9.6a84fb1d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/ac5280f2.53fa8f99.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/ad895e75.08a8243b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/d03856a3.983f3870.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.a5255970.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.a5255970.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.67e85847.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/styles.f4bbcb7f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/license/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/license/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/markdown-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/markdown-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qvzm4zXIIcxYBfeMqGP6MP7OXh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +73,11 @@
       <option name="presentableId" value="Default" />
       <updated>1617975007926</updated>
       <workItem from="1617975009128" duration="2159000" />
+      <workItem from="1617978755417" duration="582000" />
+      <workItem from="1618000467721" duration="237000" />
+      <workItem from="1618007675066" duration="70000" />
+      <workItem from="1618007750913" duration="67000" />
+      <workItem from="1618007908180" duration="2532000" />
     </task>
     <servers />
   </component>

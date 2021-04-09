@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Welcome",
+          "docs": [
+            {
+              "id": "Branding-guide",
+              "path": "/Branding-guide",
+              "sidebar": "docs"
+            },
+            {
+              "id": "FAQ",
+              "path": "/FAQ",
+              "sidebar": "docs"
+            },
+            {
+              "id": "IPFS",
+              "path": "/IPFS",
+              "sidebar": "docs"
+            },
+            {
+              "id": "license",
+              "path": "/license",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Litepaper",
+              "path": "/Litepaper",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Modules",
+              "path": "/Modules",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Roadmap",
+              "path": "/Roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Welcome",
+              "path": "/",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

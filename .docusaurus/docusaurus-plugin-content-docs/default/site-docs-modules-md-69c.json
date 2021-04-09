@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Modules",
+  "id": "Modules",
+  "isDocsHomePage": false,
+  "title": "Modules",
+  "description": "Coming Soon...",
+  "source": "@site/docs/Modules.md",
+  "slug": "/Modules",
+  "permalink": "/Modules",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Modules.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "IPFS-Private-Network",
+    "permalink": "/IPFS"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/FAQ"
+  }
+}

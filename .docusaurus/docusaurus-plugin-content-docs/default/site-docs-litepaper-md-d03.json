@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Litepaper",
+  "id": "Litepaper",
+  "isDocsHomePage": false,
+  "title": "IDEP Litepaper",
+  "description": "coverimage",
+  "source": "@site/docs/Litepaper.md",
+  "slug": "/Litepaper",
+  "permalink": "/Litepaper",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Litepaper.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "IPFS-Private-Network",
+    "permalink": "/IPFS"
+  }
+}

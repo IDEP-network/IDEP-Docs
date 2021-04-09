@@ -1,0 +1,17 @@
+{
+  "unversionedId": "license",
+  "id": "license",
+  "isDocsHomePage": false,
+  "title": "License",
+  "description": "License",
+  "source": "@site/docs/license.md",
+  "slug": "/license",
+  "permalink": "/license",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/license.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Branding Guide",
+    "permalink": "/Branding-guide"
+  }
+}

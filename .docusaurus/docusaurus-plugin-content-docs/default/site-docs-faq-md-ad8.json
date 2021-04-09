@@ -1,0 +1,21 @@
+{
+  "unversionedId": "FAQ",
+  "id": "FAQ",
+  "isDocsHomePage": false,
+  "title": "FAQ",
+  "description": "What are NFTs?",
+  "source": "@site/docs/FAQ.md",
+  "slug": "/FAQ",
+  "permalink": "/FAQ",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/FAQ.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Modules",
+    "permalink": "/Modules"
+  },
+  "next": {
+    "title": "Public Roadmap",
+    "permalink": "/Roadmap"
+  }
+}
