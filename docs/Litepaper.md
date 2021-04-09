@@ -9,12 +9,12 @@ title: IDEP Litepaper
 
 IDEP is an NFT2.0 Blockchain that focuses on decentralized digital media. It is built using the Tendermint consensus engine 
 and Cosmos SDK. IDEP will launch with 3 main foundational models to kick start the ecosystem. Uptake - the next generation 
-NFT2.0 platform, IDENTT - a hyper extensible on-chain profile, and IDEP-Swap - a AMM swap and marketplace for digital assets. 
+NFT2.0 platform, IDENTT - a hyper extensible on-chain profile, and IDEP-Swap - an AMM swap and marketplace for digital assets. 
 IDEP is the native utility token of the IDEP Network.
 
 
 The IDEP Network is being developed by the IDEP Foundation. The IDEP Foundation will facilitate the early-stage development 
-of the blockchain, by creating the premier digital media focused ecosystem. Ultimately the vision is for the IDEP Network 
+of the blockchain, by creating the premier digital media focused ecosystem. Ultimately, the vision is for the IDEP Network 
 to become the biggest community governed NFT blockchain.
 
 
@@ -27,7 +27,7 @@ to become the biggest community governed NFT blockchain.
 Uptake is IDEP’s one-stop NFT native module. Uptake will allow creators to quickly mint any form of NFT. The Uptake interface
 will come in 2 flavors. First, there is an elegant UI/UX for everyday use. Second, a more extensible SDK version will be
 deployed allowing developers to create intricate versions of NFTs ready to natively integrate into their games and dapps.
-Uptake allows users to take advantage of an extremely extremely descriptive NFT2.0 standard. With the implementation of an
+Uptake allows users to take advantage of an extremely descriptive NFT2.0 standard. With the implementation of an
 extensive keystore value (with the ability to reference off-chain and on-chain files in the NFT2.0 standard) Uptake allows
 users to construct and hybridize various versions of physical and digital NFT’s. Once the minting is complete, the owner
 is then able to completely customize his or her tokens. The customizability of tokens means that creators are free to decide
@@ -47,7 +47,7 @@ system, and more. For a small fee the profile can be minted to serve as the basi
 using blockchain technology, on-chain identities become permanent, platform-agnostic, and interoperable. They allow users
 to maintain their personal social reputation across all systems and logins. From a foundational perspective, a decentralized
 profile is a smart-contract address that represents a person, company, or object. By placing the identity infrastructure
-inside a smart-contract we can make use of the complex logic that can be added to it and leverage intractability that comes
+inside a smart-contract, we can make use of the complex logic that can be added to it and leverage intractability that comes
 with it.
 
 Key Features
@@ -99,7 +99,7 @@ which packets get committed, and allow for complete freedom on the sending chain
 IDEP has fully integrated the Ethereum Virtual Machine **(EVM)** into its core architecture. By leveraging EVM as a basis, the
 entire knowledge base of Ethereum is directly applicable to IDEP - developers can utilize all the tools and tutorials that
 already have been built for the Ethereum ecosystem. This allows for existing projects from the NFT and digital media industry
-to easily transition from Ethereum to IDEP to take advantage of fast transaction speeds, security, and low gas fees. Ultimately
+to easily transition from Ethereum to IDEP to take advantage of fast transaction speeds, security, and low gas fees. Ultimately,
 this will allow projects to cooperate with other digital content minded projects in one ecosystem.
 
 ## IDEP Tokenomics
