@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/IDEP-network/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/aidas/Desktop/IDEP-Docs/sidebars.js",
-          "contentPath": "/Users/aidas/Desktop/IDEP-Docs/docs",
-          "contentPathLocalized": "/Users/aidas/Desktop/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/sidebars.js",
+          "contentPath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/docs",
+          "contentPathLocalized": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "Welcome",
           "sidebars": {
             "docs": [

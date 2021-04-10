@@ -6,14 +6,26 @@
  */
 
 /* You can override the default Infima variables here. */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: rgb(0, 209, 234);
+  --ifm-color-primary-dark: rgb(3, 184, 204);
+  --ifm-color-primary-darker: rgb(4, 177, 196);
+  --ifm-color-primary-darkest: rgb(0, 152, 169);
+  --ifm-color-primary-light: rgb(3, 230, 255);
+  --ifm-color-primary-lighter: rgb(15, 225, 249);
+  --ifm-color-primary-lightest: rgb(20, 229, 252);
+
+
+  --ifm-color-warning: #F98C2A !important;
+  --ifm-menu-color-active: #00D1EA !important;
+
+
   --ifm-code-font-size: 95%;
 }
 
@@ -22,4 +34,51 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+
+body * {
+  font-family: 'Inter';
+}
+
+h1 {
+  font-weight: 900;
+  position: relative;
+}
+
+
+h1:nth-child(1)::after,
+h1:nth-child(1)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 300px;
+  filter: blur(40px);
+  opacity: .5; 
+}
+
+
+h1:nth-child(1)::after {
+  top: -35%;
+  left: -5%;
+  background: #F94D6C;
+}
+
+h1:nth-child(1)::before {
+  top: 35%;
+  left: 5%;
+  background: #F98C2A;
+}
+
+
+h2 {
+  font-weight: 800;
+}
+
+.footer {
+  --ifm-footer-background-color: #0D0D0E !important;
+
 }
