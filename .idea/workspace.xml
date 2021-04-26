@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252aa92b-d6f4-4a69-8b9d-50f2f1c538c3" name="Default Changelist" comment="" />
+    <list default="true" id="252aa92b-d6f4-4a69-8b9d-50f2f1c538c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/static/img/square.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +54,7 @@
       <workItem from="1618007750913" duration="67000" />
       <workItem from="1618007908180" duration="2911000" />
       <workItem from="1618011339417" duration="408000" />
+      <workItem from="1619444133798" duration="781000" />
     </task>
     <servers />
   </component>
