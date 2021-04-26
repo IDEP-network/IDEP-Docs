@@ -87,12 +87,12 @@ export default {
       {
         "theme": {
           "customCss": [
-            "/home/robinzon/code/Oxeni/projects/IDEP-Docs/src/css/custom.css"
+            "/Users/aidas/Desktop/IDEP-Docs/IDEP-Docs/src/css/custom.css"
           ]
         },
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/sidebars.js",
+          "sidebarPath": "/Users/aidas/Desktop/IDEP-Docs/IDEP-Docs/sidebars.js",
           "editUrl": "https://github.com/IDEP-network/IDEP-Docs"
         }
       }
