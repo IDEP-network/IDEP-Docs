@@ -14,6 +14,8 @@ Follow us on Social Media:
 
 [Twitter](https://twitter.com/idepnetwork) - Project updates.
 
+[Telegram](https://t.me/IDEPNetwork) - Telegram community
+
 Medium - Coming soon.
 
 
