@@ -110,7 +110,7 @@ as a staking reward throughout the life of the ecosystem.
 Token Name: **IDEP**  
 Initial Supply: 150,000,000  
 Early inflation rate: 7-20%  
-![tokenomics](/img/square.png)
+![tokenomics](/img/Token_Allocation.png)
 
 ## Governance
 
