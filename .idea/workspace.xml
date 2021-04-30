@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="252aa92b-d6f4-4a69-8b9d-50f2f1c538c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docusaurus/client-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/client-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Welcome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Branding-guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Branding-guide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/FAQ/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/FAQ/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/IPFS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/IPFS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Litepaper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Litepaper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Modules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Modules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Roadmap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Roadmap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/images/Token_Allocation-84ec59838502a8219eb69cd0f5687ce3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/d03856a3.bbed1499.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.5a54487d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/Token_Allocation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/license/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/license/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/markdown-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/markdown-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Litepaper.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Litepaper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Token_Allocation.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +72,8 @@
       <workItem from="1618007750913" duration="67000" />
       <workItem from="1618007908180" duration="2911000" />
       <workItem from="1618011339417" duration="408000" />
-      <workItem from="1619444133798" duration="2085000" />
+      <workItem from="1619444133798" duration="3280000" />
+      <workItem from="1619750154684" duration="365000" />
     </task>
     <servers />
   </component>
