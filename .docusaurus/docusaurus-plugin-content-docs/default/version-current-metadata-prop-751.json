@@ -17,6 +17,11 @@
           },
           {
             "type": "link",
+            "label": "High-level Overview",
+            "href": "/Overview"
+          },
+          {
+            "type": "link",
             "label": "IDEP Litepaper",
             "href": "/Litepaper"
           }
@@ -58,17 +63,69 @@
             "href": "/license"
           }
         ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Validators",
+        "items": [
+          {
+            "type": "link",
+            "label": "Validators Overview",
+            "href": "/ValidatorsOverview"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/Installation"
+          },
+          {
+            "type": "link",
+            "label": "Initialization",
+            "href": "/Initialization"
+          },
+          {
+            "type": "link",
+            "label": "Joining IDEP's Public Testnet Denali",
+            "href": "/Denali"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Resources",
+        "items": [
+          {
+            "type": "link",
+            "label": "References",
+            "href": "/References"
+          }
+        ]
       }
     ]
   },
   "permalinkToSidebar": {
     "/Branding-guide": "docs",
+    "/Denali": "docs",
     "/FAQ": "docs",
+    "/Initialization": "docs",
+    "/Installation": "docs",
     "/IPFS": "docs",
     "/license": "docs",
     "/Litepaper": "docs",
     "/Modules": "docs",
+    "/Overview": "docs",
+    "/References": "docs",
     "/Roadmap": "docs",
+    "/ValidatorsOverview": "docs",
     "/": "docs"
   }
 }

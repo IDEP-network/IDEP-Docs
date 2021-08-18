@@ -22,3 +22,6 @@ title: IPFS-Private-Network
 
 
 
+:::caution
+
+WARNING: DEPRECATED until futher notice!

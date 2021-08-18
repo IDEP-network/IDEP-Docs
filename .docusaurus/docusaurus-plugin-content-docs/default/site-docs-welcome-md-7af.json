@@ -11,7 +11,7 @@
   "version": "current",
   "sidebar": "docs",
   "next": {
-    "title": "IDEP Litepaper",
-    "permalink": "/Litepaper"
+    "title": "High-level Overview",
+    "permalink": "/Overview"
   }
 }

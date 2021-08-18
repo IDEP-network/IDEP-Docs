@@ -11,8 +11,8 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "Welcome",
-    "permalink": "/"
+    "title": "High-level Overview",
+    "permalink": "/Overview"
   },
   "next": {
     "title": "IPFS-Private-Network",

@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/IDEP-network/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/sidebars.js",
-          "contentPath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/docs",
-          "contentPathLocalized": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/aidas/Desktop/IDEP-Docs/IDEP-Docs/sidebars.js",
+          "contentPath": "/Users/aidas/Desktop/IDEP-Docs/IDEP-Docs/docs",
+          "contentPathLocalized": "/Users/aidas/Desktop/IDEP-Docs/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "Welcome",
           "sidebars": {
             "docs": [
@@ -24,6 +24,10 @@
                   {
                     "type": "doc",
                     "id": "Welcome"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Overview"
                   },
                   {
                     "type": "doc",
@@ -61,17 +65,64 @@
                     "id": "license"
                   }
                 ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Validators",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ValidatorsOverview"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Initialization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Denali"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Resources",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "References"
+                  }
+                ]
               }
             ]
           },
           "permalinkToSidebar": {
             "/Branding-guide": "docs",
+            "/Denali": "docs",
             "/FAQ": "docs",
+            "/Initialization": "docs",
+            "/Installation": "docs",
             "/IPFS": "docs",
             "/license": "docs",
             "/Litepaper": "docs",
             "/Modules": "docs",
+            "/Overview": "docs",
+            "/References": "docs",
             "/Roadmap": "docs",
+            "/ValidatorsOverview": "docs",
             "/": "docs"
           },
           "docs": [
@@ -97,6 +148,27 @@
               }
             },
             {
+              "unversionedId": "Denali",
+              "id": "Denali",
+              "isDocsHomePage": false,
+              "title": "Joining IDEP's Public Testnet Denali",
+              "description": "Denali",
+              "source": "@site/docs/Denali.md",
+              "slug": "/Denali",
+              "permalink": "/Denali",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Denali.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Initialization",
+                "permalink": "/Initialization"
+              },
+              "next": {
+                "title": "References",
+                "permalink": "/References"
+              }
+            },
+            {
               "unversionedId": "FAQ",
               "id": "FAQ",
               "isDocsHomePage": false,
@@ -115,6 +187,48 @@
               "next": {
                 "title": "Public Roadmap",
                 "permalink": "/Roadmap"
+              }
+            },
+            {
+              "unversionedId": "Initialization",
+              "id": "Initialization",
+              "isDocsHomePage": false,
+              "title": "Initialization",
+              "description": "Manual Setup of a new Node",
+              "source": "@site/docs/Initialization.md",
+              "slug": "/Initialization",
+              "permalink": "/Initialization",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Initialization.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Installation",
+                "permalink": "/Installation"
+              },
+              "next": {
+                "title": "Joining IDEP's Public Testnet Denali",
+                "permalink": "/Denali"
+              }
+            },
+            {
+              "unversionedId": "Installation",
+              "id": "Installation",
+              "isDocsHomePage": false,
+              "title": "Installation",
+              "description": "Testnet Binaries",
+              "source": "@site/docs/Installation.md",
+              "slug": "/Installation",
+              "permalink": "/Installation",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Installation.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Validators Overview",
+                "permalink": "/ValidatorsOverview"
+              },
+              "next": {
+                "title": "Initialization",
+                "permalink": "/Initialization"
               }
             },
             {
@@ -153,6 +267,10 @@
               "previous": {
                 "title": "Branding Guide",
                 "permalink": "/Branding-guide"
+              },
+              "next": {
+                "title": "Validators Overview",
+                "permalink": "/ValidatorsOverview"
               }
             },
             {
@@ -168,8 +286,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Welcome",
-                "permalink": "/"
+                "title": "High-level Overview",
+                "permalink": "/Overview"
               },
               "next": {
                 "title": "IPFS-Private-Network",
@@ -198,6 +316,44 @@
               }
             },
             {
+              "unversionedId": "Overview",
+              "id": "Overview",
+              "isDocsHomePage": false,
+              "title": "High-level Overview",
+              "description": "OverviewBanner",
+              "source": "@site/docs/Overview.md",
+              "slug": "/Overview",
+              "permalink": "/Overview",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Overview.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "IDEP Litepaper",
+                "permalink": "/Litepaper"
+              }
+            },
+            {
+              "unversionedId": "References",
+              "id": "References",
+              "isDocsHomePage": false,
+              "title": "References",
+              "description": "- IBC Overview",
+              "source": "@site/docs/References.md",
+              "slug": "/References",
+              "permalink": "/References",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/References.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Joining IDEP's Public Testnet Denali",
+                "permalink": "/Denali"
+              }
+            },
+            {
               "unversionedId": "Roadmap",
               "id": "Roadmap",
               "isDocsHomePage": false,
@@ -219,6 +375,27 @@
               }
             },
             {
+              "unversionedId": "ValidatorsOverview",
+              "id": "ValidatorsOverview",
+              "isDocsHomePage": false,
+              "title": "Validators Overview",
+              "description": "Introduction",
+              "source": "@site/docs/ValidatorsOverview.md",
+              "slug": "/ValidatorsOverview",
+              "permalink": "/ValidatorsOverview",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/ValidatorsOverview.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "License",
+                "permalink": "/license"
+              },
+              "next": {
+                "title": "Installation",
+                "permalink": "/Installation"
+              }
+            },
+            {
               "unversionedId": "Welcome",
               "id": "Welcome",
               "isDocsHomePage": false,
@@ -231,8 +408,8 @@
               "version": "current",
               "sidebar": "docs",
               "next": {
-                "title": "IDEP Litepaper",
-                "permalink": "/Litepaper"
+                "title": "High-level Overview",
+                "permalink": "/Overview"
               }
             }
           ]

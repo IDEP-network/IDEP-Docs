@@ -5,6 +5,7 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'Welcome',
+        'Overview',
         'Litepaper',
       ],
     },
@@ -18,6 +19,29 @@ module.exports = {
         'Roadmap',
         'Branding-guide',
         'license',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Validators',
+      items: [
+        'ValidatorsOverview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'Installation',
+        'Initialization',
+        'Denali',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Resources',
+      items: [
+        'References',
       ],
     },
   ],

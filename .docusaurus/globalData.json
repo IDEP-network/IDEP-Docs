@@ -16,8 +16,23 @@
               "sidebar": "docs"
             },
             {
+              "id": "Denali",
+              "path": "/Denali",
+              "sidebar": "docs"
+            },
+            {
               "id": "FAQ",
               "path": "/FAQ",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Initialization",
+              "path": "/Initialization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Installation",
+              "path": "/Installation",
               "sidebar": "docs"
             },
             {
@@ -41,8 +56,23 @@
               "sidebar": "docs"
             },
             {
+              "id": "Overview",
+              "path": "/Overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "References",
+              "path": "/References",
+              "sidebar": "docs"
+            },
+            {
               "id": "Roadmap",
               "path": "/Roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ValidatorsOverview",
+              "path": "/ValidatorsOverview",
               "sidebar": "docs"
             },
             {

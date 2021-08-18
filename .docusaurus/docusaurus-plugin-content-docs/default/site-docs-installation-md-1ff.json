@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Installation",
+  "id": "Installation",
+  "isDocsHomePage": false,
+  "title": "Installation",
+  "description": "Testnet Binaries",
+  "source": "@site/docs/Installation.md",
+  "slug": "/Installation",
+  "permalink": "/Installation",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Installation.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Validators Overview",
+    "permalink": "/ValidatorsOverview"
+  },
+  "next": {
+    "title": "Initialization",
+    "permalink": "/Initialization"
+  }
+}

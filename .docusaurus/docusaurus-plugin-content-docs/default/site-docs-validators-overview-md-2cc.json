@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ValidatorsOverview",
+  "id": "ValidatorsOverview",
+  "isDocsHomePage": false,
+  "title": "Validators Overview",
+  "description": "Introduction",
+  "source": "@site/docs/ValidatorsOverview.md",
+  "slug": "/ValidatorsOverview",
+  "permalink": "/ValidatorsOverview",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/ValidatorsOverview.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "License",
+    "permalink": "/license"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/Installation"
+  }
+}

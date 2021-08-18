@@ -13,5 +13,9 @@
   "previous": {
     "title": "Branding Guide",
     "permalink": "/Branding-guide"
+  },
+  "next": {
+    "title": "Validators Overview",
+    "permalink": "/ValidatorsOverview"
   }
 }

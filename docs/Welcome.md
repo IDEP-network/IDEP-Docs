@@ -2,7 +2,6 @@
 title: Welcome
 slug: /
 ---
-
 ## Welcome to IDEP Docs.
 
 
@@ -14,9 +13,9 @@ Follow us on Social Media:
 
 [Twitter](https://twitter.com/idepnetwork) - Project updates.
 
-[Telegram](https://t.me/IDEPNetwork) - Telegram community
+[Telegram](https://t.me/IDEPNetwork) - Telegram community.
 
-Medium - Coming soon.
+[Medium](https://medium.com/idep-network) - Project articles.
 
 
 

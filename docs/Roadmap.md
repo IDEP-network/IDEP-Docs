@@ -10,6 +10,6 @@ April 2021
 
 :::caution
 
-Roadmap subject to change withour prior warning!
+Roadmap subject to change without prior warning!
 
 

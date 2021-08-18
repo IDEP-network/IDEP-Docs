@@ -1,0 +1,17 @@
+{
+  "unversionedId": "References",
+  "id": "References",
+  "isDocsHomePage": false,
+  "title": "References",
+  "description": "- IBC Overview",
+  "source": "@site/docs/References.md",
+  "slug": "/References",
+  "permalink": "/References",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/References.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Joining IDEP's Public Testnet Denali",
+    "permalink": "/Denali"
+  }
+}
