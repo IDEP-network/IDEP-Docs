@@ -22,11 +22,13 @@ Heres a quick look at some of the exciting features of IDEP:
 * AR focused cross-platform universal digital asset [standards](https://github.com/IDEP-network/Galactic-Standards/blob/main/GS1.md)
 * High throughput using Tendermint Core
 * Horizontal scalability enabled with [IBC](https://ibcprotocol.org)
-* IDEP enables these key features by:
 
-Exposing a fully interoperable Augmented Reality layer for interacting with existing and future NFT and digital asset projects.
-Implementing Tendermint Core's Application Blockchain Interface [(ABCI)](https://docs.tendermint.com/master/spec/abci/) to interact with the blockchain.
-Leveraging the modules concept and other mechanisms implemented by the Cosmos SDK.
-Utilizing native EVM and WASM modules to quickly onboard dapp developers.
+IDEP enables these key features by:
+
+* Exposing a fully interoperable Augmented Reality layer for interacting with existing and future NFT and digital asset projects.
+* Implementing Tendermint Core's Application Blockchain Interface [(ABCI)](https://docs.tendermint.com/master/spec/abci/) to interact with the blockchain.
+* Leveraging the modules concept and other mechanisms implemented by the Cosmos SDK.
+* Utilizing native EVM and WASM modules to quickly onboard dapp developers.
+
 These exciting features will allow IDEP to revolutionize how we build the next generation of Augmented Reality
 experiences and pave way for a new and exciting Cosmos ecosystem's future.
