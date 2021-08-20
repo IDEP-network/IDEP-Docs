@@ -12,7 +12,7 @@ IDEP's core vision is to become the first global scale, digital media, AR platfo
 implementation. IDEP Network makes this possible by creating a geo-location based AR layer that is readily integrable
 with mobile devices and smart glasses. You can think of this layer as a new standard in augmented reality experiences
 as well as a complimentary implementation of networks blockchain. IDEP Network core modules will have full integration
-and use of this AR layer. Also, because it is so tightly integrated with network, it will be able to be used by the rest of the Cosmos Ecosystem and broader blockchain community. The Inter Blockchain Communication Protocol (IBC) will give rise to exciting collaborations and use cases underpinned with IDEP's AR tech. IDEP Network adopts the open source philosophy, inviting the entire IDEP community to contribute to the growth of the network, creating a self-sustaining decentralized platform.
+and use of this AR layer. Also, because it is so tightly integrated with the network, it will be able to be used by the rest of the Cosmos Ecosystem and broader blockchain community. The Inter Blockchain Communication Protocol (IBC) will give rise to exciting collaborations and use cases underpinned with IDEP's AR tech. IDEP Network adopts the open source philosophy, inviting the entire IDEP community to contribute to the growth of the network, creating a self-sustaining decentralized platform.
 
 ### Features
 
