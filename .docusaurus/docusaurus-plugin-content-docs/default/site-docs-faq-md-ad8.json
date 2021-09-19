@@ -11,11 +11,11 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "Modules",
-    "permalink": "/Modules"
-  },
-  "next": {
     "title": "Public Roadmap",
     "permalink": "/Roadmap"
+  },
+  "next": {
+    "title": "IPFS-Private-Network",
+    "permalink": "/IPFS"
   }
 }

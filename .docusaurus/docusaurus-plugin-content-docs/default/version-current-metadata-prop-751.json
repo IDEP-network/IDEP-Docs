@@ -34,13 +34,8 @@
         "items": [
           {
             "type": "link",
-            "label": "IPFS-Private-Network",
-            "href": "/IPFS"
-          },
-          {
-            "type": "link",
-            "label": "Modules",
-            "href": "/Modules"
+            "label": "Public Roadmap",
+            "href": "/Roadmap"
           },
           {
             "type": "link",
@@ -49,8 +44,8 @@
           },
           {
             "type": "link",
-            "label": "Public Roadmap",
-            "href": "/Roadmap"
+            "label": "IPFS-Private-Network",
+            "href": "/IPFS"
           },
           {
             "type": "link",
@@ -61,6 +56,28 @@
             "type": "link",
             "label": "License",
             "href": "/license"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Core Modules",
+        "items": [
+          {
+            "type": "link",
+            "label": "Uptake",
+            "href": "/Uptake"
+          },
+          {
+            "type": "link",
+            "label": "Senary App",
+            "href": "/SenaryApp"
+          },
+          {
+            "type": "link",
+            "label": "IDENTT",
+            "href": "/IDENTT"
           }
         ]
       },
@@ -95,6 +112,11 @@
             "type": "link",
             "label": "Joining IDEP's Public Testnet Denali",
             "href": "/Denali"
+          },
+          {
+            "type": "link",
+            "label": "Keys",
+            "href": "/Keys"
           }
         ]
       },
@@ -116,15 +138,18 @@
     "/Branding-guide": "docs",
     "/Denali": "docs",
     "/FAQ": "docs",
+    "/IDENTT": "docs",
     "/Initialization": "docs",
     "/Installation": "docs",
     "/IPFS": "docs",
+    "/Keys": "docs",
     "/license": "docs",
     "/Litepaper": "docs",
-    "/Modules": "docs",
     "/Overview": "docs",
     "/References": "docs",
     "/Roadmap": "docs",
+    "/SenaryApp": "docs",
+    "/Uptake": "docs",
     "/ValidatorsOverview": "docs",
     "/": "docs"
   }

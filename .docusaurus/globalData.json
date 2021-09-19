@@ -26,6 +26,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "IDENTT",
+              "path": "/IDENTT",
+              "sidebar": "docs"
+            },
+            {
               "id": "Initialization",
               "path": "/Initialization",
               "sidebar": "docs"
@@ -41,6 +46,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "Keys",
+              "path": "/Keys",
+              "sidebar": "docs"
+            },
+            {
               "id": "license",
               "path": "/license",
               "sidebar": "docs"
@@ -48,11 +58,6 @@
             {
               "id": "Litepaper",
               "path": "/Litepaper",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Modules",
-              "path": "/Modules",
               "sidebar": "docs"
             },
             {
@@ -68,6 +73,16 @@
             {
               "id": "Roadmap",
               "path": "/Roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "SenaryApp",
+              "path": "/SenaryApp",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Uptake",
+              "path": "/Uptake",
               "sidebar": "docs"
             },
             {

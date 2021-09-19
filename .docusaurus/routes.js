@@ -9,7 +9,7 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','a18'),
+  component: ComponentCreator('/','362'),
   
   routes: [
 {
@@ -33,6 +33,11 @@ export default [
   exact: true,
 },
 {
+  path: '/IDENTT',
+  component: ComponentCreator('/IDENTT','e06'),
+  exact: true,
+},
+{
   path: '/Initialization',
   component: ComponentCreator('/Initialization','df7'),
   exact: true,
@@ -48,6 +53,11 @@ export default [
   exact: true,
 },
 {
+  path: '/Keys',
+  component: ComponentCreator('/Keys','c8b'),
+  exact: true,
+},
+{
   path: '/license',
   component: ComponentCreator('/license','727'),
   exact: true,
@@ -55,11 +65,6 @@ export default [
 {
   path: '/Litepaper',
   component: ComponentCreator('/Litepaper','399'),
-  exact: true,
-},
-{
-  path: '/Modules',
-  component: ComponentCreator('/Modules','808'),
   exact: true,
 },
 {
@@ -75,6 +80,16 @@ export default [
 {
   path: '/Roadmap',
   component: ComponentCreator('/Roadmap','d35'),
+  exact: true,
+},
+{
+  path: '/SenaryApp',
+  component: ComponentCreator('/SenaryApp','31e'),
+  exact: true,
+},
+{
+  path: '/Uptake',
+  component: ComponentCreator('/Uptake','d1c'),
   exact: true,
 },
 {

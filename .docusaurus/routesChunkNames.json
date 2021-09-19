@@ -3,7 +3,7 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/-a18": {
+  "/-362": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -23,6 +23,10 @@
     "component": "17896441",
     "content": "ad895e75"
   },
+  "/IDENTT-e06": {
+    "component": "17896441",
+    "content": "047b00dc"
+  },
   "/Initialization-df7": {
     "component": "17896441",
     "content": "79d211d9"
@@ -35,6 +39,10 @@
     "component": "17896441",
     "content": "4ec80ec2"
   },
+  "/Keys-c8b": {
+    "component": "17896441",
+    "content": "7eefc753"
+  },
   "/license-727": {
     "component": "17896441",
     "content": "ac5280f2"
@@ -42,10 +50,6 @@
   "/Litepaper-399": {
     "component": "17896441",
     "content": "d03856a3"
-  },
-  "/Modules-808": {
-    "component": "17896441",
-    "content": "69ce70d3"
   },
   "/Overview-145": {
     "component": "17896441",
@@ -58,6 +62,14 @@
   "/Roadmap-d35": {
     "component": "17896441",
     "content": "09daff52"
+  },
+  "/SenaryApp-31e": {
+    "component": "17896441",
+    "content": "16be684e"
+  },
+  "/Uptake-d1c": {
+    "component": "17896441",
+    "content": "177c4642"
   },
   "/ValidatorsOverview-e2a": {
     "component": "17896441",

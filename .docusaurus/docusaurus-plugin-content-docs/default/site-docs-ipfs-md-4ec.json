@@ -11,11 +11,11 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "IDEP Litepaper",
-    "permalink": "/Litepaper"
+    "title": "FAQ",
+    "permalink": "/FAQ"
   },
   "next": {
-    "title": "Modules",
-    "permalink": "/Modules"
+    "title": "Branding Guide",
+    "permalink": "/Branding-guide"
   }
 }

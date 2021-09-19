@@ -10,7 +10,7 @@ title: Joining IDEP's Public Testnet Denali
 
 * Initialize your node with your moniker
 
-* Copy the genesis file from the IDEP repo and placedo it in the nodes config directory
+* Copy the genesis file from the IDEP repo and place it in the nodes config directory
 
 * Start the node
 ```
@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/IDEP-network/testnet-binaries/main/Denali
 
 mv genesis.json ~/ion/config/
 
-iond start --p2p.persistent_peers=3285f676050842aea5ce0c5968ef4b1579ffc8d9@104.131.46.133:26656,19f7aa0f2da7e6a01372be459a9c43bec6ac2191@64.225.75.108:26656
+iond start --p2p.persistent_peers=95a7b71ab6ad8fad5f1ed3b49472683adea92cf1@142.93.65.220:26656,dc07da4be6ff285a1be2e9501fa92efef248d025@64.225.75.108:26656
 ```
 
 ## Validator-Setup

@@ -13,12 +13,20 @@ module.exports = {
       type: 'category',
       label: 'Knowledge Base',
       items: [
-        'IPFS',
-        'Modules',
-        'FAQ',
         'Roadmap',
+        'FAQ',
+        'IPFS',
         'Branding-guide',
         'license',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Modules',
+      items: [
+        'Uptake',
+        'SenaryApp',
+        'IDENTT',
       ],
     },
     {
@@ -35,6 +43,7 @@ module.exports = {
         'Installation',
         'Initialization',
         'Denali',
+        'Keys',
       ],
     },
     {
