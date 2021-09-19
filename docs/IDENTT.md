@@ -4,4 +4,4 @@ title: IDENTT
 
 ## Coming Soon...
 
-![modules](/img/foundation.png)
+![modules](/img/IDENTT_banner.png)
