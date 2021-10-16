@@ -6,7 +6,7 @@ title: Public Roadmap
 
 *****
 
-April 2021
+October 2021
 
 :::caution
 
