@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Client/Keys",
+  "id": "Client/Keys",
+  "isDocsHomePage": false,
+  "title": "Keys",
+  "description": "Keys allows you to manage your local tendermint keystore (wallets) for iond.",
+  "source": "@site/docs/Client/Keys.md",
+  "slug": "/Client/Keys",
+  "permalink": "/Client/Keys",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Keys.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bank",
+    "permalink": "/Client/Bank"
+  },
+  "next": {
+    "title": "Tendermint",
+    "permalink": "/Client/Tendermint"
+  }
+}

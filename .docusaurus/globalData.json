@@ -16,6 +16,36 @@
               "sidebar": "docs"
             },
             {
+              "id": "Client/Auth",
+              "path": "/Client/Auth",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Client/Bank",
+              "path": "/Client/Bank",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Client/Introduction",
+              "path": "/Client/Introduction",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Client/Keys",
+              "path": "/Client/Keys",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Client/Tendermint",
+              "path": "/Client/Tendermint",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Client/Tx",
+              "path": "/Client/Tx",
+              "sidebar": "docs"
+            },
+            {
               "id": "Denali",
               "path": "/Denali",
               "sidebar": "docs"

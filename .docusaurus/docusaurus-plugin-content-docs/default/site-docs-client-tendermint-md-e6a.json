@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Client/Tendermint",
+  "id": "Client/Tendermint",
+  "isDocsHomePage": false,
+  "title": "Tendermint",
+  "description": "Tendermint consensus engine state querying commands.",
+  "source": "@site/docs/Client/Tendermint.md",
+  "slug": "/Client/Tendermint",
+  "permalink": "/Client/Tendermint",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Tendermint.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Keys",
+    "permalink": "/Client/Keys"
+  },
+  "next": {
+    "title": "Tx",
+    "permalink": "/Client/Tx"
+  }
+}

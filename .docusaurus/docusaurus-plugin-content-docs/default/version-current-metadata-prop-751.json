@@ -84,6 +84,43 @@
       {
         "collapsed": true,
         "type": "category",
+        "label": "Client",
+        "items": [
+          {
+            "type": "link",
+            "label": "Client Introduction",
+            "href": "/Client/Introduction"
+          },
+          {
+            "type": "link",
+            "label": "Auth",
+            "href": "/Client/Auth"
+          },
+          {
+            "type": "link",
+            "label": "Bank",
+            "href": "/Client/Bank"
+          },
+          {
+            "type": "link",
+            "label": "Keys",
+            "href": "/Client/Keys"
+          },
+          {
+            "type": "link",
+            "label": "Tendermint",
+            "href": "/Client/Tendermint"
+          },
+          {
+            "type": "link",
+            "label": "Tx",
+            "href": "/Client/Tx"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
         "label": "Validators",
         "items": [
           {
@@ -136,6 +173,12 @@
   },
   "permalinkToSidebar": {
     "/Branding-guide": "docs",
+    "/Client/Auth": "docs",
+    "/Client/Bank": "docs",
+    "/Client/Introduction": "docs",
+    "/Client/Keys": "docs",
+    "/Client/Tendermint": "docs",
+    "/Client/Tx": "docs",
     "/Denali": "docs",
     "/FAQ": "docs",
     "/IDENTT": "docs",

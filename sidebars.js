@@ -31,6 +31,18 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Client',
+      items: [
+        'Client/Introduction',
+        'Client/Auth',
+        'Client/Bank',
+        'Client/Keys',
+        'Client/Tendermint',
+        'Client/Tx'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Validators',
       items: [
         'ValidatorsOverview',

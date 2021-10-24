@@ -2,7 +2,7 @@
 title: Keys
 ---
 
-## Helpful commands regarding keys
+## Helpful commands for validators regarding keys
 <br/>
 
 ## Account:

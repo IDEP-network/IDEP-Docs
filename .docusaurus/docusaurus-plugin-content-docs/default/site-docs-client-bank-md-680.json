@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Client/Bank",
+  "id": "Client/Bank",
+  "isDocsHomePage": false,
+  "title": "Bank",
+  "description": "The bank module is responsible for handling multi-asset coin transfers between accounts and tracking special-case",
+  "source": "@site/docs/Client/Bank.md",
+  "slug": "/Client/Bank",
+  "permalink": "/Client/Bank",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Bank.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Auth",
+    "permalink": "/Client/Auth"
+  },
+  "next": {
+    "title": "Keys",
+    "permalink": "/Client/Keys"
+  }
+}

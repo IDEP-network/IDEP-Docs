@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/IDEP-network/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/aidas/Desktop/docs/IDEP-Docs/sidebars.js",
-          "contentPath": "/Users/aidas/Desktop/docs/IDEP-Docs/docs",
-          "contentPathLocalized": "/Users/aidas/Desktop/docs/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/aidas/Desktop/Docs/IDEP-Docs/sidebars.js",
+          "contentPath": "/Users/aidas/Desktop/Docs/IDEP-Docs/docs",
+          "contentPathLocalized": "/Users/aidas/Desktop/Docs/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "Welcome",
           "sidebars": {
             "docs": [
@@ -84,6 +84,37 @@
               {
                 "collapsed": true,
                 "type": "category",
+                "label": "Client",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Client/Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Auth"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Bank"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Keys"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tendermint"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tx"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
                 "label": "Validators",
                 "items": [
                   {
@@ -130,6 +161,12 @@
           },
           "permalinkToSidebar": {
             "/Branding-guide": "docs",
+            "/Client/Auth": "docs",
+            "/Client/Bank": "docs",
+            "/Client/Introduction": "docs",
+            "/Client/Keys": "docs",
+            "/Client/Tendermint": "docs",
+            "/Client/Tx": "docs",
             "/Denali": "docs",
             "/FAQ": "docs",
             "/IDENTT": "docs",
@@ -167,6 +204,132 @@
               "next": {
                 "title": "License",
                 "permalink": "/license"
+              }
+            },
+            {
+              "unversionedId": "Client/Auth",
+              "id": "Client/Auth",
+              "isDocsHomePage": false,
+              "title": "Auth",
+              "description": "The auth module is responsible for specifying the base transaction and account types for an application.",
+              "source": "@site/docs/Client/Auth.md",
+              "slug": "/Client/Auth",
+              "permalink": "/Client/Auth",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Auth.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Client Introduction",
+                "permalink": "/Client/Introduction"
+              },
+              "next": {
+                "title": "Bank",
+                "permalink": "/Client/Bank"
+              }
+            },
+            {
+              "unversionedId": "Client/Bank",
+              "id": "Client/Bank",
+              "isDocsHomePage": false,
+              "title": "Bank",
+              "description": "The bank module is responsible for handling multi-asset coin transfers between accounts and tracking special-case",
+              "source": "@site/docs/Client/Bank.md",
+              "slug": "/Client/Bank",
+              "permalink": "/Client/Bank",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Bank.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Auth",
+                "permalink": "/Client/Auth"
+              },
+              "next": {
+                "title": "Keys",
+                "permalink": "/Client/Keys"
+              }
+            },
+            {
+              "unversionedId": "Client/Introduction",
+              "id": "Client/Introduction",
+              "isDocsHomePage": false,
+              "title": "Client Introduction",
+              "description": "iond is the command line client for the IDEP Network. Users are able to do multiple things including send transactions and",
+              "source": "@site/docs/Client/Introduction.md",
+              "slug": "/Client/Introduction",
+              "permalink": "/Client/Introduction",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Introduction.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "IDENTT",
+                "permalink": "/IDENTT"
+              },
+              "next": {
+                "title": "Auth",
+                "permalink": "/Client/Auth"
+              }
+            },
+            {
+              "unversionedId": "Client/Keys",
+              "id": "Client/Keys",
+              "isDocsHomePage": false,
+              "title": "Keys",
+              "description": "Keys allows you to manage your local tendermint keystore (wallets) for iond.",
+              "source": "@site/docs/Client/Keys.md",
+              "slug": "/Client/Keys",
+              "permalink": "/Client/Keys",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Keys.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bank",
+                "permalink": "/Client/Bank"
+              },
+              "next": {
+                "title": "Tendermint",
+                "permalink": "/Client/Tendermint"
+              }
+            },
+            {
+              "unversionedId": "Client/Tendermint",
+              "id": "Client/Tendermint",
+              "isDocsHomePage": false,
+              "title": "Tendermint",
+              "description": "Tendermint consensus engine state querying commands.",
+              "source": "@site/docs/Client/Tendermint.md",
+              "slug": "/Client/Tendermint",
+              "permalink": "/Client/Tendermint",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Tendermint.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Keys",
+                "permalink": "/Client/Keys"
+              },
+              "next": {
+                "title": "Tx",
+                "permalink": "/Client/Tx"
+              }
+            },
+            {
+              "unversionedId": "Client/Tx",
+              "id": "Client/Tx",
+              "isDocsHomePage": false,
+              "title": "Tx",
+              "description": "Tx allows you to sign or broadcast transactions",
+              "source": "@site/docs/Client/Tx.md",
+              "slug": "/Client/Tx",
+              "permalink": "/Client/Tx",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Tx.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Tendermint",
+                "permalink": "/Client/Tendermint"
+              },
+              "next": {
+                "title": "Validators Overview",
+                "permalink": "/ValidatorsOverview"
               }
             },
             {
@@ -228,8 +391,8 @@
                 "permalink": "/SenaryApp"
               },
               "next": {
-                "title": "Validators Overview",
-                "permalink": "/ValidatorsOverview"
+                "title": "Client Introduction",
+                "permalink": "/Client/Introduction"
               }
             },
             {
@@ -300,7 +463,7 @@
               "id": "Keys",
               "isDocsHomePage": false,
               "title": "Keys",
-              "description": "Helpful commands regarding keys",
+              "description": "Helpful commands for validators regarding keys",
               "source": "@site/docs/Keys.md",
               "slug": "/Keys",
               "permalink": "/Keys",
@@ -472,8 +635,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "IDENTT",
-                "permalink": "/IDENTT"
+                "title": "Tx",
+                "permalink": "/Client/Tx"
               },
               "next": {
                 "title": "Installation",

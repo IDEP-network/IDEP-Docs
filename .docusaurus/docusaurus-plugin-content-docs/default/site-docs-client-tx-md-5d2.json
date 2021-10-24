@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Client/Tx",
+  "id": "Client/Tx",
+  "isDocsHomePage": false,
+  "title": "Tx",
+  "description": "Tx allows you to sign or broadcast transactions",
+  "source": "@site/docs/Client/Tx.md",
+  "slug": "/Client/Tx",
+  "permalink": "/Client/Tx",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Tx.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tendermint",
+    "permalink": "/Client/Tendermint"
+  },
+  "next": {
+    "title": "Validators Overview",
+    "permalink": "/ValidatorsOverview"
+  }
+}
