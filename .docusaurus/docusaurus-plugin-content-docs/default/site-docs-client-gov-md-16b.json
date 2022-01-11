@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Client/Gov",
+  "id": "Client/Gov",
+  "isDocsHomePage": false,
+  "title": "Gov",
+  "description": "The gov module is responsible for the basic functionalities of governance for the IDEP Network.",
+  "source": "@site/docs/Client/Gov.md",
+  "slug": "/Client/Gov",
+  "permalink": "/Client/Gov",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Gov.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Auth",
+    "permalink": "/Client/Auth"
+  },
+  "next": {
+    "title": "Bank",
+    "permalink": "/Client/Bank"
+  }
+}

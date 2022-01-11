@@ -59,7 +59,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 IDEP Network"
+      "copyright": "Copyright © 2022 IDEP Network"
     },
     "colorMode": {
       "defaultMode": "light",
@@ -87,12 +87,12 @@ export default {
       {
         "theme": {
           "customCss": [
-            "/home/robinzon/code/Oxeni/projects/IDEP-Docs/src/css/custom.css"
+            "/Users/aidas/Desktop/Docs/IDEP-Docs/src/css/custom.css"
           ]
         },
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/sidebars.js",
+          "sidebarPath": "/Users/aidas/Desktop/Docs/IDEP-Docs/sidebars.js",
           "editUrl": "https://github.com/IDEP-network/IDEP-Docs"
         }
       }

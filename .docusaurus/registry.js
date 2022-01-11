@@ -1,6 +1,7 @@
 export default {
   '047b00dc': [() => import(/* webpackChunkName: '047b00dc' */ "@site/docs/IDENTT.md"), "@site/docs/IDENTT.md", require.resolveWeak("@site/docs/IDENTT.md")],
   '09daff52': [() => import(/* webpackChunkName: '09daff52' */ "@site/docs/Roadmap.md"), "@site/docs/Roadmap.md", require.resolveWeak("@site/docs/Roadmap.md")],
+  '16b8c116': [() => import(/* webpackChunkName: '16b8c116' */ "@site/docs/Client/Gov.md"), "@site/docs/Client/Gov.md", require.resolveWeak("@site/docs/Client/Gov.md")],
   '16be684e': [() => import(/* webpackChunkName: '16be684e' */ "@site/docs/SenaryApp.md"), "@site/docs/SenaryApp.md", require.resolveWeak("@site/docs/SenaryApp.md")],
   '177c4642': [() => import(/* webpackChunkName: '177c4642' */ "@site/docs/Uptake.md"), "@site/docs/Uptake.md", require.resolveWeak("@site/docs/Uptake.md")],
   '17896441': [() => import(/* webpackChunkName: '17896441' */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],

@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/IDEP-network/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/sidebars.js",
-          "contentPath": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/docs",
-          "contentPathLocalized": "/home/robinzon/code/Oxeni/projects/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/aidas/Desktop/Docs/IDEP-Docs/sidebars.js",
+          "contentPath": "/Users/aidas/Desktop/Docs/IDEP-Docs/docs",
+          "contentPathLocalized": "/Users/aidas/Desktop/Docs/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "Welcome",
           "sidebars": {
             "docs": [
@@ -96,6 +96,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Client/Gov"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Client/Bank"
                   },
                   {
@@ -163,6 +167,7 @@
             "/Branding-guide": "docs",
             "/Client/Auth": "docs",
             "/Client/Bank": "docs",
+            "/Client/Gov": "docs",
             "/Client/Introduction": "docs",
             "/Client/Keys": "docs",
             "/Client/Tendermint": "docs",
@@ -223,8 +228,8 @@
                 "permalink": "/Client/Introduction"
               },
               "next": {
-                "title": "Bank",
-                "permalink": "/Client/Bank"
+                "title": "Gov",
+                "permalink": "/Client/Gov"
               }
             },
             {
@@ -240,12 +245,33 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Auth",
-                "permalink": "/Client/Auth"
+                "title": "Gov",
+                "permalink": "/Client/Gov"
               },
               "next": {
                 "title": "Keys",
                 "permalink": "/Client/Keys"
+              }
+            },
+            {
+              "unversionedId": "Client/Gov",
+              "id": "Client/Gov",
+              "isDocsHomePage": false,
+              "title": "Gov",
+              "description": "The gov module is responsible for the basic functionalities of governance for the IDEP Network.",
+              "source": "@site/docs/Client/Gov.md",
+              "slug": "/Client/Gov",
+              "permalink": "/Client/Gov",
+              "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Gov.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Auth",
+                "permalink": "/Client/Auth"
+              },
+              "next": {
+                "title": "Bank",
+                "permalink": "/Client/Bank"
               }
             },
             {

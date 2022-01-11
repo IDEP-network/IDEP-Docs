@@ -35,6 +35,7 @@ module.exports = {
       items: [
         'Client/Introduction',
         'Client/Auth',
+        'Client/Gov',
         'Client/Bank',
         'Client/Keys',
         'Client/Tendermint',

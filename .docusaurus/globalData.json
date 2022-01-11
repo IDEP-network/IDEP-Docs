@@ -26,6 +26,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "Client/Gov",
+              "path": "/Client/Gov",
+              "sidebar": "docs"
+            },
+            {
               "id": "Client/Introduction",
               "path": "/Client/Introduction",
               "sidebar": "docs"

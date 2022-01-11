@@ -98,6 +98,11 @@
           },
           {
             "type": "link",
+            "label": "Gov",
+            "href": "/Client/Gov"
+          },
+          {
+            "type": "link",
             "label": "Bank",
             "href": "/Client/Bank"
           },
@@ -175,6 +180,7 @@
     "/Branding-guide": "docs",
     "/Client/Auth": "docs",
     "/Client/Bank": "docs",
+    "/Client/Gov": "docs",
     "/Client/Introduction": "docs",
     "/Client/Keys": "docs",
     "/Client/Tendermint": "docs",

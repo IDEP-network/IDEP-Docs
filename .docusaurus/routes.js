@@ -9,7 +9,7 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','fa0'),
+  component: ComponentCreator('/','4cb'),
   
   routes: [
 {
@@ -30,6 +30,11 @@ export default [
 {
   path: '/Client/Bank',
   component: ComponentCreator('/Client/Bank','40d'),
+  exact: true,
+},
+{
+  path: '/Client/Gov',
+  component: ComponentCreator('/Client/Gov','4ca'),
   exact: true,
 },
 {
