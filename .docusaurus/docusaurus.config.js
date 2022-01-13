@@ -5,7 +5,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/idepfavicon.ico",
+  "favicon": "img/idep2favicon2.svg",
   "organizationName": "IDEP-Network",
   "projectName": "IDEP-Docs",
   "themeConfig": {
@@ -13,7 +13,7 @@ export default {
       "title": "IDEP Docs",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo_mark.svg"
+        "src": "img/idep2bg.svg"
       },
       "items": [
         {
