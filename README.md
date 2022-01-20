@@ -29,8 +29,9 @@ npm run build
 ```
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-
+<p align="center">
 :exclamation::exclamation: You need to build your changes before you commit to the repository for the updates to take effect :exclamation::exclamation:
+</p>
 
 ## Deployment
 
