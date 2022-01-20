@@ -24,5 +24,7 @@ You may use the IDEP Network name and logo in marketing for your app or website 
 ### Logos
 Our branding resources can be found here
 
+https://drive.google.com/drive/folders/1QKAjpb6ajDSxPZie7Xq1QZRI_iiQUb3r?usp=sharing
+
 Contact us for further branding or marketing questions at hello@idep.network.
 
