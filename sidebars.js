@@ -44,6 +44,15 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Smart Contracts',
+      items: [
+        'Setup',
+        'Obtain-Compile-Upload',
+        'Interacting-with-on-chain-contract'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Validators',
       items: [
         'ValidatorsOverview',
