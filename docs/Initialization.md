@@ -2,38 +2,74 @@
 Title: Initialization
 ---
 
-## Manual Setup of a new Node
-
-**These instructions are for setting up a brand new full node from scratch.**
-
-Initialize the node:
+## Full-Node Initialization
 ```
-iond init <moniker> --chain-id Test-Denali
-```
-Note Monikers can contain only ASCII characters. Using Unicode characters is not supported and renders your node unreachable.
-
-By default, the init command creates your ~/.ion directory with subfolders config and data. In the config directory, the most important files for configuration are app.toml and config.toml.
-```
+iond init <moniker> --chain-id SanfordNetworkV2
 iond keys add <accountname>
 ```
-Make sure you save your mnemonic in a secure location!
+- Save the mnemonic in a safe place and dont share it with anyone
 
-Next make your way to the nodes config directory:
+- Add seeds and persistent_peers to config.toml
+
+- Next make your way to the nodes config directory, remove the genesis.json and replace it with the one provided in this repo
 ```
 cd ~/.ion/config/
-```
-Remove the genesis.json and replace it with the one provided for the network you are trying to connect to.
 
-## Start the node
-
-You can now start the node with the following command:
+rm genesis.json
+wget https://raw.githubusercontent.com/IDEP-network/SanfordV2/master/genesis.json
 ```
-iond start --p2p.persistent_peers=95a7b71ab6ad8fad5f1ed3b49472683adea92cf1@142.93.65.220:26656,dc07da4be6ff285a1be2e9501fa92efef248d025@64.225.75.108:26656
-```
-**Note** The following example is taken from the testnet Denali, and will be different for mainnet.
 
-Now check the status of your node with:
+## Start Node
+
+```
+iond start
+```
+You can stop the node at any time using Ctrl+C.
+
+### Validator-Setup
+
+- To get your Public Address
+```
+iond keys list
+```
+- Create a Validator
+
+Before you can create your Validator, your node has to be synced up to the latest block of the chain. You can check this by:
+
 ```
 iond status
 ```
-You can stop the node at any time using Ctrl+C.
+If `catching_up` is `false` you are good to execute:
+
+```
+iond tx staking create-validator \
+    --amount 10000000000idep \
+    --commission-max-change-rate 0.01 \
+    --commission-max-rate 0.2 \
+    --commission-rate 0.1 \
+    --from <YourWalletAddress> \
+    --min-self-delegation 1 \
+    --moniker <YourMoniker> \
+    --pubkey $(iond tendermint show-validator) \
+    --chain-id SanfordV2
+```
+
+### Seeds
+```
+4f32b91384999069bdfdbc82b7725866f1c37cbb@142.93.121.105:26656
+```
+
+### FAQ
+#### Example of a command to create a Validator
+```
+iond tx staking create-validator --amount 15000000000000idep --from idep1d2nqcwf9zz9fx7xlesyt0gc3utfxe2mk6nfwey --pubkey idepvalconspub1zcjduepqztw5yzm5wj0yc600aaemxlmda5488jv9hycxfnta3w7vz9jgpawqc9qnhs --commission-rate 0.01 --commission-max-rate 0.05 --commission-max-change-rate 0.005 --min-self-delegation 1 --chain-id SanfordV2
+```
+
+#### To know more about the commands and other parameters
+```
+iond tx staking create-validator --help
+```
+#### Tendermint API Documentation
+https://v1.cosmos.network/rpc/v0.41.4
+
+**Note:** IDEP Token has 8 decimal places. If you wish to run a validator with 100,000 tokens you must set the ammount to --ammount 10000000000000

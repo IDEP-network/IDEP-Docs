@@ -2,17 +2,51 @@
 title: Installation
 ---
 
-## Testnet Binaries
+<h1><p align="center"><img alt="Banner" src="static/img/SanfordV2.png" /></p></h1>
 
-Clone and build IDEP Network's binary ION using git:
+<h1 align="center">Incentivized Network Sanford V2.0</h1>
+
+## Requirements #
+* Latest Version of Ubuntu
+* 4 CPU Processor
+* 8-16 GB Ram
+* 1 TB Storage
+
+### Incentivized-testnet Sanford is utilizing Cosmos version 0.44.5
+
+## Setup
+
+**Prerequisites:** Make sure to have [Golang >=1.17](https://golang.org/).
+
+- Download the IDEP client binary iond
 ```
-git clone https://github.com/IDEP-network/testnet-binaries.git
+git clone https://github.com/IDEP-network/SanfordV2.git
 ```
-Add permissions to the binary:
+
+- Move/Copy the binary to /usr/local/bin/
 ```
-sudo chmod +x iond
+sudo cp SanfordV2/iond /usr/local/bin/
 ```
-Check the binary commands with:
+
+- Add permissions to the binary
+```
+sudo chmod a+x /usr/local/bin/iond
+```
+
+## Install Wasmvm dependency
+```
+go get -u github.com/CosmWasm/wasmvm@v1.0.0-beta4
+cd $HOME/go/pkg/mod/github.com/\!cosm\!wasm/wasmvm@v1.0.0-beta4/api
+chmod +x libwasmvm.so
+```
+
+### Add LD_LIBRARY_PATH
+```
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/go/pkg/mod/github.com/\!cosm\!wasm/wasmvm@v1.0.0-beta4/api" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+```
+
+- Check the binary commands with
 ```
 iond -h
 ```
