@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Guides/Keys",
+  "id": "Guides/Keys",
+  "isDocsHomePage": false,
+  "title": "Keys",
+  "description": "Helpful commands for validators regarding keys",
+  "source": "@site/docs/Guides/Keys.md",
+  "slug": "/Guides/Keys",
+  "permalink": "/Guides/Keys",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Guides/Keys.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Joining IDEP's Public Testnet Denali",
+    "permalink": "/Guides/Denali"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/Resources/References"
+  }
+}

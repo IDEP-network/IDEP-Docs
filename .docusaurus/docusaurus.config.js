@@ -32,7 +32,7 @@ export default {
           "items": [
             {
               "label": "Roadmap",
-              "to": "/Roadmap"
+              "to": "KnowledgeBase/Roadmap"
             }
           ]
         },
@@ -54,7 +54,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/Idep-network"
+              "href": "https://github.com/IDEP-Network"
             }
           ]
         }
@@ -87,12 +87,12 @@ export default {
       {
         "theme": {
           "customCss": [
-            "/Users/aidas/Desktop/Docs/IDEP-Docs/src/css/custom.css"
+            "/Users/aidas/Desktop/radek/IDEP-Docs/src/css/custom.css"
           ]
         },
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/aidas/Desktop/Docs/IDEP-Docs/sidebars.js",
+          "sidebarPath": "/Users/aidas/Desktop/radek/IDEP-Docs/sidebars.js",
           "editUrl": "https://github.com/IDEP-network/IDEP-Docs"
         }
       }

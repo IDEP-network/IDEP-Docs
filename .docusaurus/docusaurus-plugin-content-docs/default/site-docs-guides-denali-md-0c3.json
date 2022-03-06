@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Guides/Denali",
+  "id": "Guides/Denali",
+  "isDocsHomePage": false,
+  "title": "Joining IDEP's Public Testnet Denali",
+  "description": "Denali",
+  "source": "@site/docs/Guides/Denali.md",
+  "slug": "/Guides/Denali",
+  "permalink": "/Guides/Denali",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Guides/Denali.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Initialization",
+    "permalink": "/Guides/Initialization"
+  },
+  "next": {
+    "title": "Keys",
+    "permalink": "/Guides/Keys"
+  }
+}

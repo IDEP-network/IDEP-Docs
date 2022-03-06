@@ -1,0 +1,21 @@
+{
+  "unversionedId": "GettingStarted/Overview",
+  "id": "GettingStarted/Overview",
+  "isDocsHomePage": false,
+  "title": "High-level Overview",
+  "description": "OverviewBanner",
+  "source": "@site/docs/GettingStarted/Overview.md",
+  "slug": "/GettingStarted/Overview",
+  "permalink": "/GettingStarted/Overview",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/GettingStarted/Overview.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "IDEP Litepaper",
+    "permalink": "/GettingStarted/Litepaper"
+  }
+}

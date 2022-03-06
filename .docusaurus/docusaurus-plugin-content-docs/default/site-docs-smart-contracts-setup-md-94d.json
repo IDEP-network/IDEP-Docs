@@ -1,0 +1,21 @@
+{
+  "unversionedId": "SmartContracts/Setup",
+  "id": "SmartContracts/Setup",
+  "isDocsHomePage": false,
+  "title": "Setup",
+  "description": "Install required dependencies",
+  "source": "@site/docs/SmartContracts/Setup.md",
+  "slug": "/SmartContracts/Setup",
+  "permalink": "/SmartContracts/Setup",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/SmartContracts/Setup.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tx",
+    "permalink": "/Client/Tx"
+  },
+  "next": {
+    "title": "Obtain, Compile, Upload",
+    "permalink": "/SmartContracts/Obtain-Compile-Upload"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "GettingStarted/Welcome",
+  "id": "GettingStarted/Welcome",
+  "isDocsHomePage": false,
+  "title": "Welcome",
+  "description": "Welcome to IDEP Docs.",
+  "source": "@site/docs/GettingStarted/Welcome.md",
+  "slug": "/",
+  "permalink": "/",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/GettingStarted/Welcome.md",
+  "version": "current",
+  "sidebar": "docs",
+  "next": {
+    "title": "High-level Overview",
+    "permalink": "/GettingStarted/Overview"
+  }
+}

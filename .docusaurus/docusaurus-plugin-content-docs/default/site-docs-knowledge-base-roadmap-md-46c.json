@@ -1,0 +1,21 @@
+{
+  "unversionedId": "KnowledgeBase/Roadmap",
+  "id": "KnowledgeBase/Roadmap",
+  "isDocsHomePage": false,
+  "title": "Public Roadmap",
+  "description": "roadmap",
+  "source": "@site/docs/KnowledgeBase/Roadmap.md",
+  "slug": "/KnowledgeBase/Roadmap",
+  "permalink": "/KnowledgeBase/Roadmap",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/Roadmap.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "IDEP Litepaper",
+    "permalink": "/GettingStarted/Litepaper"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/KnowledgeBase/FAQ"
+  }
+}

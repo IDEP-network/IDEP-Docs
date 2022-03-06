@@ -15,7 +15,7 @@
     "permalink": "/Client/Tendermint"
   },
   "next": {
-    "title": "Validators Overview",
-    "permalink": "/ValidatorsOverview"
+    "title": "Setup",
+    "permalink": "/SmartContracts/Setup"
   }
 }

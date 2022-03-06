@@ -3,17 +3,13 @@
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/-4cb": {
+  "/-b71": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/-00d": {
+  "/-b48": {
     "component": "17896441",
-    "content": "7afa52e9"
-  },
-  "/Branding-guide-888": {
-    "component": "17896441",
-    "content": "519cc44b"
+    "content": "7830e1a4"
   },
   "/Client/Auth-a2d": {
     "component": "17896441",
@@ -43,64 +39,80 @@
     "component": "17896441",
     "content": "5d29d255"
   },
-  "/Denali-f7b": {
+  "/CoreModules/IDENTT-4bf": {
     "component": "17896441",
-    "content": "55224bd6"
+    "content": "1294c5ce"
   },
-  "/FAQ-5a3": {
+  "/CoreModules/SenaryApp-5ab": {
     "component": "17896441",
-    "content": "ad895e75"
+    "content": "f498b568"
   },
-  "/IDENTT-e06": {
+  "/CoreModules/Uptake-a86": {
     "component": "17896441",
-    "content": "047b00dc"
+    "content": "afbfa8cb"
   },
-  "/Initialization-df7": {
+  "/GettingStarted/Litepaper-cd4": {
     "component": "17896441",
-    "content": "79d211d9"
+    "content": "5f973d53"
   },
-  "/Installation-f88": {
+  "/GettingStarted/Overview-3b5": {
     "component": "17896441",
-    "content": "1ff659d4"
+    "content": "d2887111"
   },
-  "/IPFS-9ba": {
+  "/Guides/Denali-527": {
     "component": "17896441",
-    "content": "4ec80ec2"
+    "content": "0c3c23bc"
   },
-  "/Keys-c8b": {
+  "/Guides/Initialization-00f": {
     "component": "17896441",
-    "content": "7eefc753"
+    "content": "e6a914cb"
   },
-  "/license-727": {
+  "/Guides/Installation-194": {
     "component": "17896441",
-    "content": "ac5280f2"
+    "content": "43c96067"
   },
-  "/Litepaper-399": {
+  "/Guides/Keys-b05": {
     "component": "17896441",
-    "content": "d03856a3"
+    "content": "7d201e08"
   },
-  "/Overview-145": {
+  "/KnowledgeBase/Branding-guide-a25": {
     "component": "17896441",
-    "content": "cbc3190d"
+    "content": "3787ca4c"
   },
-  "/References-cb2": {
+  "/KnowledgeBase/FAQ-0f8": {
     "component": "17896441",
-    "content": "cd333141"
+    "content": "6a81e6e3"
   },
-  "/Roadmap-d35": {
+  "/KnowledgeBase/IPFS-7d1": {
     "component": "17896441",
-    "content": "09daff52"
+    "content": "20e27234"
   },
-  "/SenaryApp-31e": {
+  "/KnowledgeBase/license-74c": {
     "component": "17896441",
-    "content": "16be684e"
+    "content": "8f6bb471"
   },
-  "/Uptake-d1c": {
+  "/KnowledgeBase/Roadmap-c20": {
     "component": "17896441",
-    "content": "177c4642"
+    "content": "46c14fe8"
   },
-  "/ValidatorsOverview-e2a": {
+  "/Resources/References-575": {
     "component": "17896441",
-    "content": "2cc9471b"
+    "content": "4cb01972"
+  },
+  "/SmartContracts/Interacting-with-on-chain-contract-1d6": {
+    "component": "17896441",
+    "content": "4f926c7d"
+  },
+  "/SmartContracts/Obtain-Compile-Upload-b11": {
+    "component": "17896441",
+    "content": "57615cee"
+  },
+  "/SmartContracts/Setup-2c3": {
+    "component": "17896441",
+    "content": "94d21ee8"
+  },
+  "/Validators/ValidatorsOverview-648": {
+    "component": "17896441",
+    "content": "55d94e20"
   }
 }

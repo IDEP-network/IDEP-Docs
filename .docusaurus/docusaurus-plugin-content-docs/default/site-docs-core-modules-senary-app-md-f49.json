@@ -1,0 +1,21 @@
+{
+  "unversionedId": "CoreModules/SenaryApp",
+  "id": "CoreModules/SenaryApp",
+  "isDocsHomePage": false,
+  "title": "Senary App",
+  "description": "Coming Soon...",
+  "source": "@site/docs/CoreModules/SenaryApp.md",
+  "slug": "/CoreModules/SenaryApp",
+  "permalink": "/CoreModules/SenaryApp",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/CoreModules/SenaryApp.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Uptake",
+    "permalink": "/CoreModules/Uptake"
+  },
+  "next": {
+    "title": "IDENTT",
+    "permalink": "/CoreModules/IDENTT"
+  }
+}

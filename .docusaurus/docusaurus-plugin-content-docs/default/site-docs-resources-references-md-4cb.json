@@ -1,0 +1,17 @@
+{
+  "unversionedId": "Resources/References",
+  "id": "Resources/References",
+  "isDocsHomePage": false,
+  "title": "References",
+  "description": "- IBC Overview",
+  "source": "@site/docs/Resources/References.md",
+  "slug": "/Resources/References",
+  "permalink": "/Resources/References",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Resources/References.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Keys",
+    "permalink": "/Guides/Keys"
+  }
+}

@@ -8,13 +8,8 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "Welcome",
+          "mainDocId": "GettingStarted/Welcome",
           "docs": [
-            {
-              "id": "Branding-guide",
-              "path": "/Branding-guide",
-              "sidebar": "docs"
-            },
             {
               "id": "Client/Auth",
               "path": "/Client/Auth",
@@ -51,83 +46,103 @@
               "sidebar": "docs"
             },
             {
-              "id": "Denali",
-              "path": "/Denali",
+              "id": "CoreModules/IDENTT",
+              "path": "/CoreModules/IDENTT",
               "sidebar": "docs"
             },
             {
-              "id": "FAQ",
-              "path": "/FAQ",
+              "id": "CoreModules/SenaryApp",
+              "path": "/CoreModules/SenaryApp",
               "sidebar": "docs"
             },
             {
-              "id": "IDENTT",
-              "path": "/IDENTT",
+              "id": "CoreModules/Uptake",
+              "path": "/CoreModules/Uptake",
               "sidebar": "docs"
             },
             {
-              "id": "Initialization",
-              "path": "/Initialization",
+              "id": "GettingStarted/Litepaper",
+              "path": "/GettingStarted/Litepaper",
               "sidebar": "docs"
             },
             {
-              "id": "Installation",
-              "path": "/Installation",
+              "id": "GettingStarted/Overview",
+              "path": "/GettingStarted/Overview",
               "sidebar": "docs"
             },
             {
-              "id": "IPFS",
-              "path": "/IPFS",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Keys",
-              "path": "/Keys",
-              "sidebar": "docs"
-            },
-            {
-              "id": "license",
-              "path": "/license",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Litepaper",
-              "path": "/Litepaper",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Overview",
-              "path": "/Overview",
-              "sidebar": "docs"
-            },
-            {
-              "id": "References",
-              "path": "/References",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Roadmap",
-              "path": "/Roadmap",
-              "sidebar": "docs"
-            },
-            {
-              "id": "SenaryApp",
-              "path": "/SenaryApp",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Uptake",
-              "path": "/Uptake",
-              "sidebar": "docs"
-            },
-            {
-              "id": "ValidatorsOverview",
-              "path": "/ValidatorsOverview",
-              "sidebar": "docs"
-            },
-            {
-              "id": "Welcome",
+              "id": "GettingStarted/Welcome",
               "path": "/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Guides/Denali",
+              "path": "/Guides/Denali",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Guides/Initialization",
+              "path": "/Guides/Initialization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Guides/Installation",
+              "path": "/Guides/Installation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Guides/Keys",
+              "path": "/Guides/Keys",
+              "sidebar": "docs"
+            },
+            {
+              "id": "KnowledgeBase/Branding-guide",
+              "path": "/KnowledgeBase/Branding-guide",
+              "sidebar": "docs"
+            },
+            {
+              "id": "KnowledgeBase/FAQ",
+              "path": "/KnowledgeBase/FAQ",
+              "sidebar": "docs"
+            },
+            {
+              "id": "KnowledgeBase/IPFS",
+              "path": "/KnowledgeBase/IPFS",
+              "sidebar": "docs"
+            },
+            {
+              "id": "KnowledgeBase/license",
+              "path": "/KnowledgeBase/license",
+              "sidebar": "docs"
+            },
+            {
+              "id": "KnowledgeBase/Roadmap",
+              "path": "/KnowledgeBase/Roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Resources/References",
+              "path": "/Resources/References",
+              "sidebar": "docs"
+            },
+            {
+              "id": "SmartContracts/Interacting-with-on-chain-contract",
+              "path": "/SmartContracts/Interacting-with-on-chain-contract",
+              "sidebar": "docs"
+            },
+            {
+              "id": "SmartContracts/Obtain-Compile-Upload",
+              "path": "/SmartContracts/Obtain-Compile-Upload",
+              "sidebar": "docs"
+            },
+            {
+              "id": "SmartContracts/Setup",
+              "path": "/SmartContracts/Setup",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Validators/ValidatorsOverview",
+              "path": "/Validators/ValidatorsOverview",
               "sidebar": "docs"
             }
           ]

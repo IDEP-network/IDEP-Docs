@@ -4,29 +4,29 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'Welcome',
-        'Overview',
-        'Litepaper',
+        'GettingStarted/Welcome',
+        'GettingStarted/Overview',
+        'GettingStarted/Litepaper',
       ],
     },
     {
       type: 'category',
       label: 'Knowledge Base',
       items: [
-        'Roadmap',
-        'FAQ',
-        'IPFS',
-        'Branding-guide',
-        'license',
+        'KnowledgeBase/Roadmap',
+        'KnowledgeBase/FAQ',
+        'KnowledgeBase/IPFS',
+        'KnowledgeBase/Branding-guide',
+        'KnowledgeBase/license',
       ],
     },
     {
       type: 'category',
-      label: 'Core Modules',
+      label: 'Core CoreModules',
       items: [
-        'Uptake',
-        'SenaryApp',
-        'IDENTT',
+        'CoreModules/Uptake',
+        'CoreModules/SenaryApp',
+        'CoreModules/IDENTT',
       ],
     },
     {
@@ -46,33 +46,33 @@ module.exports = {
       type: 'category',
       label: 'Smart Contracts',
       items: [
-        'Setup',
-        'Obtain-Compile-Upload',
-        'Interacting-with-on-chain-contract'
+        'SmartContracts/Setup',
+        'SmartContracts/Obtain-Compile-Upload',
+        'SmartContracts/Interacting-with-on-chain-contract'
       ]
     },
     {
       type: 'category',
       label: 'Validators',
       items: [
-        'ValidatorsOverview',
+        'Validators/ValidatorsOverview',
       ],
     },
     {
       type: 'category',
       label: 'Guides',
       items: [
-        'Installation',
-        'Initialization',
-        'Denali',
-        'Keys',
+        'Guides/Installation',
+        'Guides/Initialization',
+        'Guides/Denali',
+        'Guides/Keys',
       ],
     },
     {
       type: 'category',
       label: 'Resources',
       items: [
-        'References',
+        'Resources/References',
       ],
     },
   ],

@@ -32,7 +32,7 @@ module.exports = {
           items: [
             {
               label: 'Roadmap',
-              to: '/Roadmap'
+              to: 'KnowledgeBase/Roadmap'
             }
 
           ],
@@ -55,7 +55,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Idep-network',
+              href: 'https://github.com/IDEP-Network',
             },
           ],
         },

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Validators/ValidatorsOverview",
+  "id": "Validators/ValidatorsOverview",
+  "isDocsHomePage": false,
+  "title": "Validators Overview",
+  "description": "Introduction",
+  "source": "@site/docs/Validators/ValidatorsOverview.md",
+  "slug": "/Validators/ValidatorsOverview",
+  "permalink": "/Validators/ValidatorsOverview",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Validators/ValidatorsOverview.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Interacting with on-chain contract",
+    "permalink": "/SmartContracts/Interacting-with-on-chain-contract"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/Guides/Installation"
+  }
+}

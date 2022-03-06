@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Guides/Initialization",
+  "id": "Guides/Initialization",
+  "isDocsHomePage": false,
+  "title": "Initialization",
+  "description": "Manual Setup of a new Node",
+  "source": "@site/docs/Guides/Initialization.md",
+  "slug": "/Guides/Initialization",
+  "permalink": "/Guides/Initialization",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Guides/Initialization.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/Guides/Installation"
+  },
+  "next": {
+    "title": "Joining IDEP's Public Testnet Denali",
+    "permalink": "/Guides/Denali"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "KnowledgeBase/FAQ",
+  "id": "KnowledgeBase/FAQ",
+  "isDocsHomePage": false,
+  "title": "FAQ",
+  "description": "What are NFTs?",
+  "source": "@site/docs/KnowledgeBase/FAQ.md",
+  "slug": "/KnowledgeBase/FAQ",
+  "permalink": "/KnowledgeBase/FAQ",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/FAQ.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Public Roadmap",
+    "permalink": "/KnowledgeBase/Roadmap"
+  },
+  "next": {
+    "title": "IPFS-Private-Network",
+    "permalink": "/KnowledgeBase/IPFS"
+  }
+}

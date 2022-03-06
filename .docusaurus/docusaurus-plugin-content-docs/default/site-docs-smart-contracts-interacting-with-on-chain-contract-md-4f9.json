@@ -1,0 +1,21 @@
+{
+  "unversionedId": "SmartContracts/Interacting-with-on-chain-contract",
+  "id": "SmartContracts/Interacting-with-on-chain-contract",
+  "isDocsHomePage": false,
+  "title": "Interacting with on-chain contract",
+  "description": "Initialize",
+  "source": "@site/docs/SmartContracts/Interacting-with-on-chain-contract.md",
+  "slug": "/SmartContracts/Interacting-with-on-chain-contract",
+  "permalink": "/SmartContracts/Interacting-with-on-chain-contract",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/SmartContracts/Interacting-with-on-chain-contract.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Obtain, Compile, Upload",
+    "permalink": "/SmartContracts/Obtain-Compile-Upload"
+  },
+  "next": {
+    "title": "Validators Overview",
+    "permalink": "/Validators/ValidatorsOverview"
+  }
+}

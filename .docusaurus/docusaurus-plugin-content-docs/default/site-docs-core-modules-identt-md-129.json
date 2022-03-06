@@ -1,0 +1,21 @@
+{
+  "unversionedId": "CoreModules/IDENTT",
+  "id": "CoreModules/IDENTT",
+  "isDocsHomePage": false,
+  "title": "IDENTT",
+  "description": "Coming Soon...",
+  "source": "@site/docs/CoreModules/IDENTT.md",
+  "slug": "/CoreModules/IDENTT",
+  "permalink": "/CoreModules/IDENTT",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/CoreModules/IDENTT.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Senary App",
+    "permalink": "/CoreModules/SenaryApp"
+  },
+  "next": {
+    "title": "Client Introduction",
+    "permalink": "/Client/Introduction"
+  }
+}

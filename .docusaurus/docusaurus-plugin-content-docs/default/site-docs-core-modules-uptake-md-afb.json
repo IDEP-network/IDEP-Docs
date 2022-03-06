@@ -1,0 +1,21 @@
+{
+  "unversionedId": "CoreModules/Uptake",
+  "id": "CoreModules/Uptake",
+  "isDocsHomePage": false,
+  "title": "Uptake",
+  "description": "modules",
+  "source": "@site/docs/CoreModules/Uptake.md",
+  "slug": "/CoreModules/Uptake",
+  "permalink": "/CoreModules/Uptake",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/CoreModules/Uptake.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "License",
+    "permalink": "/KnowledgeBase/license"
+  },
+  "next": {
+    "title": "Senary App",
+    "permalink": "/CoreModules/SenaryApp"
+  }
+}

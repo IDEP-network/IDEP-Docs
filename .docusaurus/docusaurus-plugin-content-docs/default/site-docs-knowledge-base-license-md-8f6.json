@@ -1,0 +1,21 @@
+{
+  "unversionedId": "KnowledgeBase/license",
+  "id": "KnowledgeBase/license",
+  "isDocsHomePage": false,
+  "title": "License",
+  "description": "License",
+  "source": "@site/docs/KnowledgeBase/license.md",
+  "slug": "/KnowledgeBase/license",
+  "permalink": "/KnowledgeBase/license",
+  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/license.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Branding Guide",
+    "permalink": "/KnowledgeBase/Branding-guide"
+  },
+  "next": {
+    "title": "Uptake",
+    "permalink": "/CoreModules/Uptake"
+  }
+}
