@@ -2,9 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.idep.network/blog</id>
     <title>IDEP Docs Blog</title>
-    <updated>2015-10-25T23:29:00.000Z</updated>
+    <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.idep.network/blog"/>
     <subtitle>IDEP Docs Blog</subtitle>
     <icon>https://docs.idep.network/img/idep2favicon2.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[welcome]]></title>
+        <id>/2021/08/26/welcome</id>
+        <link href="https://docs.idep.network/blog/2021/08/26/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mdx-blog-post]]></title>
+        <id>/2021/08/01/mdx-blog-post</id>
+        <link href="https://docs.idep.network/blog/2021/08/01/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[long-blog-post]]></title>
+        <id>/2019/05/29/long-blog-post</id>
+        <link href="https://docs.idep.network/blog/2019/05/29/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[first-blog-post]]></title>
+        <id>/2019/05/28/first-blog-post</id>
+        <link href="https://docs.idep.network/blog/2019/05/28/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+    </entry>
 </feed>

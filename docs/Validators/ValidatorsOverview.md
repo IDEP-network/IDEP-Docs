@@ -17,19 +17,6 @@ of the Tendermint consensus protocol. Note that validators can set commission on
 
 If validators double sign, are frequently offline or do not participate in governance, their staked IDEP tokens (including IDEP tokens of users that delegated to them) can be slashed. The penalty depends on the severity of the violation.
 
-## Hardware
-
-Validators should expect to equip their datacenter location with redundant power, connectivity, and storage backups. Expect to have several redundant networking boxes for fiber, firewall and switching and then small servers with redundant hard drive and failover. Hardware can be on the low end of datacenter gear to start out with.
-
-We anticipate that network requirements will be low initially. The current testnet requires minimal resources. Then bandwidth, CPU and memory requirements will rise as the network grows. Large hard drives are recommended for storing years of blockchain history.
-
-Although there is no minimum system requirements you can use the following as a rough guide:
-
-* Latest Version of Ubuntu
-* 4 CPU Processor
-* 8 GB Ram
-* 500GB Storage
-
 ## Community
 
 To get the latest news on becoming a validator please reach out to us on our community chat:
