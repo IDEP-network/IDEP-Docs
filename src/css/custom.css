@@ -57,7 +57,7 @@ h1:nth-child(1)::before {
   height: 7vw;
   border-radius: 300px;
   filter: blur(40px);
-  opacity: .5; 
+  opacity: .5;
 }
 
 
@@ -81,4 +81,30 @@ h2 {
 .footer {
   --ifm-footer-background-color: #0D0D0E !important;
 
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(1.5rem); }
+}
+
+main {
+  margin: 1rem 0 5rem 0;
+}
+
+.card {
+  padding: 1rem;
+  margin-top: 0rem;
+  animation: fadeInUp 400ms backwards;
+  animation-delay: 150ms;
+  transition-property: all;
+  transition-duration: 200ms;
+  box-shadow: 0 8px 28px 4px rgba(86,91,115,0.15);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translate(0px, -5px);
 }
