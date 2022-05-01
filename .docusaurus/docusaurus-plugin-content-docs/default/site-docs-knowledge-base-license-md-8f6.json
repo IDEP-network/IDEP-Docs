@@ -1,21 +1,25 @@
 {
   "unversionedId": "KnowledgeBase/license",
   "id": "KnowledgeBase/license",
-  "isDocsHomePage": false,
   "title": "License",
   "description": "License",
   "source": "@site/docs/KnowledgeBase/license.md",
+  "sourceDirName": "KnowledgeBase",
   "slug": "/KnowledgeBase/license",
-  "permalink": "/KnowledgeBase/license",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/license.md",
+  "permalink": "/docs/KnowledgeBase/license",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/license.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "License"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "Branding Guide",
-    "permalink": "/KnowledgeBase/Branding-guide"
+    "permalink": "/docs/KnowledgeBase/Branding-guide"
   },
   "next": {
-    "title": "Uptake",
-    "permalink": "/CoreModules/Uptake"
+    "title": "Network Protocol",
+    "permalink": "/docs/Protocol/Network-Protocol"
   }
 }

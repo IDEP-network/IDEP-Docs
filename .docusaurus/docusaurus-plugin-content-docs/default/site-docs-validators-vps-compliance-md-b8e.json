@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Validators/vps-compliance",
+  "id": "Validators/vps-compliance",
+  "title": "VPS Compliance",
+  "description": "Information Regarding SGX Compliance for VPS options and IDEP Network",
+  "source": "@site/docs/Validators/vps-compliance.md",
+  "sourceDirName": "Validators",
+  "slug": "/Validators/vps-compliance",
+  "permalink": "/docs/Validators/vps-compliance",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/vps-compliance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "VPS Compliance"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Hardware Compliance",
+    "permalink": "/docs/Validators/hardware-compliance"
+  },
+  "next": {
+    "title": "Prepare your Hardware",
+    "permalink": "/docs/Validators/setup-sgx"
+  }
+}

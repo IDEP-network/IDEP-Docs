@@ -1,21 +1,25 @@
 {
   "unversionedId": "GettingStarted/Litepaper",
   "id": "GettingStarted/Litepaper",
-  "isDocsHomePage": false,
   "title": "IDEP Litepaper",
   "description": "coverimage",
   "source": "@site/docs/GettingStarted/Litepaper.md",
+  "sourceDirName": "GettingStarted",
   "slug": "/GettingStarted/Litepaper",
-  "permalink": "/GettingStarted/Litepaper",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/GettingStarted/Litepaper.md",
+  "permalink": "/docs/GettingStarted/Litepaper",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Litepaper.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "IDEP Litepaper"
+  },
+  "sidebar": "Docs",
   "previous": {
-    "title": "High-level Overview",
-    "permalink": "/GettingStarted/Overview"
+    "title": "Introduction",
+    "permalink": "/docs/GettingStarted/Introduction"
   },
   "next": {
     "title": "Public Roadmap",
-    "permalink": "/KnowledgeBase/Roadmap"
+    "permalink": "/docs/KnowledgeBase/Roadmap"
   }
 }

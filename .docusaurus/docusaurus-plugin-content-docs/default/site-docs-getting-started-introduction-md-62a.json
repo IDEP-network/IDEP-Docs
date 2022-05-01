@@ -1,0 +1,21 @@
+{
+  "unversionedId": "GettingStarted/Introduction",
+  "id": "GettingStarted/Introduction",
+  "title": "Introduction",
+  "description": "OverviewBanner",
+  "source": "@site/docs/GettingStarted/Introduction.md",
+  "sourceDirName": "GettingStarted",
+  "slug": "/GettingStarted/Introduction",
+  "permalink": "/docs/GettingStarted/Introduction",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "Docs",
+  "next": {
+    "title": "IDEP Litepaper",
+    "permalink": "/docs/GettingStarted/Litepaper"
+  }
+}

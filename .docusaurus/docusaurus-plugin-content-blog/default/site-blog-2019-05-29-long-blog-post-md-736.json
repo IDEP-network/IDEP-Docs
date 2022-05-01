@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2019/05/29/long-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+  "source": "@site/blog/2019-05-29-long-blog-post.md",
+  "title": "long-blog-post",
+  "description": "",
+  "date": "2019-05-29T00:00:00.000Z",
+  "formattedDate": "May 29, 2019",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "mdx-blog-post",
+    "permalink": "/blog/2021/08/01/mdx-blog-post"
+  },
+  "nextItem": {
+    "title": "first-blog-post",
+    "permalink": "/blog/2019/05/28/first-blog-post"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Protocol/Network-Protocol",
+  "id": "Protocol/Network-Protocol",
+  "title": "Network Protocol",
+  "description": "The IDEP Network Protocol is run by network validators, and consists of two main components: trusted and untrusted sections. The untrusted section is responsible for all untrusted code used by validators in the network, including Cosmos-SDK code, tendermint code, and the creation of enclaves (trusted components). The trusted component (the enclave) is responsible for executing CosmWasm based contracts, executing any functions designated within these contracts, and reading and writing (encrypted data) to Tendermint state during execution.",
+  "source": "@site/docs/Protocol/Network-Protocol.md",
+  "sourceDirName": "Protocol",
+  "slug": "/Protocol/Network-Protocol",
+  "permalink": "/docs/Protocol/Network-Protocol",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Network-Protocol.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Network Protocol"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "License",
+    "permalink": "/docs/KnowledgeBase/license"
+  },
+  "next": {
+    "title": "Components",
+    "permalink": "/docs/Protocol/Components"
+  }
+}

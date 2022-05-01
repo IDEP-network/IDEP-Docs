@@ -1,21 +1,25 @@
 {
   "unversionedId": "Client/Introduction",
   "id": "Client/Introduction",
-  "isDocsHomePage": false,
   "title": "Client Introduction",
   "description": "iond is the command line client for the IDEP Network. Users are able to do multiple things including send transactions and",
   "source": "@site/docs/Client/Introduction.md",
+  "sourceDirName": "Client",
   "slug": "/Client/Introduction",
-  "permalink": "/Client/Introduction",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Introduction.md",
+  "permalink": "/docs/Client/Introduction",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Introduction.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Client Introduction"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "IDENTT",
-    "permalink": "/CoreModules/IDENTT"
+    "permalink": "/docs/CoreModules/IDENTT"
   },
   "next": {
     "title": "Auth",
-    "permalink": "/Client/Auth"
+    "permalink": "/docs/Client/Auth"
   }
 }

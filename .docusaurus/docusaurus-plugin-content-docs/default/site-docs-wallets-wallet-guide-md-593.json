@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Wallets/wallet-guide",
+  "id": "Wallets/wallet-guide",
+  "title": "IDEP Wallet Guide",
+  "description": "Work in progress.",
+  "source": "@site/docs/Wallets/wallet-guide.md",
+  "sourceDirName": "Wallets",
+  "slug": "/Wallets/wallet-guide",
+  "permalink": "/docs/Wallets/wallet-guide",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wallets/wallet-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "IDEP Wallet Guide"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Intel-SGX",
+    "permalink": "/docs/Protocol/Intel-SGX"
+  },
+  "next": {
+    "title": "Support / Troubleshooting",
+    "permalink": "/docs/Wallets/support"
+  }
+}

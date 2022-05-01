@@ -1,153 +1,233 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/docs",
           "mainDocId": "GettingStarted/Welcome",
           "docs": [
             {
               "id": "Client/Auth",
-              "path": "/Client/Auth",
-              "sidebar": "docs"
+              "path": "/docs/Client/Auth",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Bank",
-              "path": "/Client/Bank",
-              "sidebar": "docs"
+              "path": "/docs/Client/Bank",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Gov",
-              "path": "/Client/Gov",
-              "sidebar": "docs"
+              "path": "/docs/Client/Gov",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Introduction",
-              "path": "/Client/Introduction",
-              "sidebar": "docs"
+              "path": "/docs/Client/Introduction",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Keys",
-              "path": "/Client/Keys",
-              "sidebar": "docs"
+              "path": "/docs/Client/Keys",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Tendermint",
-              "path": "/Client/Tendermint",
-              "sidebar": "docs"
+              "path": "/docs/Client/Tendermint",
+              "sidebar": "Docs"
             },
             {
               "id": "Client/Tx",
-              "path": "/Client/Tx",
-              "sidebar": "docs"
+              "path": "/docs/Client/Tx",
+              "sidebar": "Docs"
             },
             {
               "id": "CoreModules/IDENTT",
-              "path": "/CoreModules/IDENTT",
-              "sidebar": "docs"
+              "path": "/docs/CoreModules/IDENTT",
+              "sidebar": "Docs"
             },
             {
               "id": "CoreModules/SenaryApp",
-              "path": "/CoreModules/SenaryApp",
-              "sidebar": "docs"
+              "path": "/docs/CoreModules/SenaryApp",
+              "sidebar": "Docs"
             },
             {
               "id": "CoreModules/Uptake",
-              "path": "/CoreModules/Uptake",
-              "sidebar": "docs"
+              "path": "/docs/CoreModules/Uptake",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Developers/Interacting-with-on-chain-contract",
+              "path": "/docs/Developers/Interacting-with-on-chain-contract",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Developers/Obtain-Compile-Upload",
+              "path": "/docs/Developers/Obtain-Compile-Upload",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Developers/Overview",
+              "path": "/docs/Developers/Overview",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Developers/Setup",
+              "path": "/docs/Developers/Setup",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "GettingStarted/Introduction",
+              "path": "/docs/GettingStarted/Introduction",
+              "sidebar": "Docs"
             },
             {
               "id": "GettingStarted/Litepaper",
-              "path": "/GettingStarted/Litepaper",
-              "sidebar": "docs"
-            },
-            {
-              "id": "GettingStarted/Overview",
-              "path": "/GettingStarted/Overview",
-              "sidebar": "docs"
+              "path": "/docs/GettingStarted/Litepaper",
+              "sidebar": "Docs"
             },
             {
               "id": "GettingStarted/Welcome",
-              "path": "/",
-              "sidebar": "docs"
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "Guides/Denali",
-              "path": "/Guides/Denali",
-              "sidebar": "docs"
+              "path": "/docs/Guides/Denali",
+              "sidebar": "Docs"
             },
             {
               "id": "Guides/Initialization",
-              "path": "/Guides/Initialization",
-              "sidebar": "docs"
+              "path": "/docs/Guides/Initialization",
+              "sidebar": "Docs"
             },
             {
               "id": "Guides/Installation",
-              "path": "/Guides/Installation",
-              "sidebar": "docs"
+              "path": "/docs/Guides/Installation",
+              "sidebar": "Docs"
             },
             {
               "id": "Guides/Keys",
-              "path": "/Guides/Keys",
-              "sidebar": "docs"
+              "path": "/docs/Guides/Keys",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "KnowledgeBase/Branding-guide",
-              "path": "/KnowledgeBase/Branding-guide",
-              "sidebar": "docs"
+              "path": "/docs/KnowledgeBase/Branding-guide",
+              "sidebar": "Docs"
             },
             {
               "id": "KnowledgeBase/FAQ",
-              "path": "/KnowledgeBase/FAQ",
-              "sidebar": "docs"
+              "path": "/docs/KnowledgeBase/FAQ",
+              "sidebar": "Docs"
             },
             {
               "id": "KnowledgeBase/IPFS",
-              "path": "/KnowledgeBase/IPFS",
-              "sidebar": "docs"
+              "path": "/docs/KnowledgeBase/IPFS",
+              "sidebar": "Docs"
             },
             {
               "id": "KnowledgeBase/license",
-              "path": "/KnowledgeBase/license",
-              "sidebar": "docs"
+              "path": "/docs/KnowledgeBase/license",
+              "sidebar": "Docs"
             },
             {
               "id": "KnowledgeBase/Roadmap",
-              "path": "/KnowledgeBase/Roadmap",
-              "sidebar": "docs"
+              "path": "/docs/KnowledgeBase/Roadmap",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Protocol/Components",
+              "path": "/docs/Protocol/Components",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Protocol/Intel-SGX",
+              "path": "/docs/Protocol/Intel-SGX",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Protocol/Network-Protocol",
+              "path": "/docs/Protocol/Network-Protocol",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Protocol/Transactions",
+              "path": "/docs/Protocol/Transactions",
+              "sidebar": "Docs"
             },
             {
               "id": "Resources/References",
-              "path": "/Resources/References",
-              "sidebar": "docs"
+              "path": "/docs/Resources/References",
+              "sidebar": "Docs"
             },
             {
-              "id": "SmartContracts/Interacting-with-on-chain-contract",
-              "path": "/SmartContracts/Interacting-with-on-chain-contract",
-              "sidebar": "docs"
+              "id": "Validators/hardware-compliance",
+              "path": "/docs/Validators/hardware-compliance",
+              "sidebar": "Docs"
             },
             {
-              "id": "SmartContracts/Obtain-Compile-Upload",
-              "path": "/SmartContracts/Obtain-Compile-Upload",
-              "sidebar": "docs"
+              "id": "Validators/join-validator-testnet",
+              "path": "/docs/Validators/join-validator-testnet",
+              "sidebar": "Docs"
             },
             {
-              "id": "SmartContracts/Setup",
-              "path": "/SmartContracts/Setup",
-              "sidebar": "docs"
+              "id": "Validators/run-full-node",
+              "path": "/docs/Validators/run-full-node",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Validators/setup-sgx",
+              "path": "/docs/Validators/setup-sgx",
+              "sidebar": "Docs"
             },
             {
               "id": "Validators/ValidatorsOverview",
-              "path": "/Validators/ValidatorsOverview",
-              "sidebar": "docs"
+              "path": "/docs/Validators/ValidatorsOverview",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Validators/vps-compliance",
+              "path": "/docs/Validators/vps-compliance",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Wallets/support",
+              "path": "/docs/Wallets/support",
+              "sidebar": "Docs"
+            },
+            {
+              "id": "Wallets/wallet-guide",
+              "path": "/docs/Wallets/wallet-guide",
+              "sidebar": "Docs"
             }
-          ]
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            },
+            "Docs": {
+              "link": {
+                "path": "/docs/GettingStarted/Introduction",
+                "label": "GettingStarted/Introduction"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }

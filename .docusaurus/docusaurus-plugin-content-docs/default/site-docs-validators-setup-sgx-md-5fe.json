@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Validators/setup-sgx",
+  "id": "Validators/setup-sgx",
+  "title": "Prepare your Hardware",
+  "description": "Ensure your hardware is IDEP Node Compliant.",
+  "source": "@site/docs/Validators/setup-sgx.md",
+  "sourceDirName": "Validators",
+  "slug": "/Validators/setup-sgx",
+  "permalink": "/docs/Validators/setup-sgx",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/setup-sgx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Prepare your Hardware"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "VPS Compliance",
+    "permalink": "/docs/Validators/vps-compliance"
+  },
+  "next": {
+    "title": "Run Full Node",
+    "permalink": "/docs/Validators/run-full-node"
+  }
+}

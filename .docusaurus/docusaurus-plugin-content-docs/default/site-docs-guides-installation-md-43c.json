@@ -1,21 +1,25 @@
 {
   "unversionedId": "Guides/Installation",
   "id": "Guides/Installation",
-  "isDocsHomePage": false,
   "title": "Installation",
   "description": "Testnet Binaries",
   "source": "@site/docs/Guides/Installation.md",
+  "sourceDirName": "Guides",
   "slug": "/Guides/Installation",
-  "permalink": "/Guides/Installation",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Guides/Installation.md",
+  "permalink": "/docs/Guides/Installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Installation.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Installation"
+  },
+  "sidebar": "Docs",
   "previous": {
-    "title": "Validators Overview",
-    "permalink": "/Validators/ValidatorsOverview"
+    "title": "Join as a Validator",
+    "permalink": "/docs/Validators/join-validator-testnet"
   },
   "next": {
     "title": "Initialization",
-    "permalink": "/Guides/Initialization"
+    "permalink": "/docs/Guides/Initialization"
   }
 }

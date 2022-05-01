@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2021/08/01/mdx-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+  "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+  "title": "mdx-blog-post",
+  "description": "",
+  "date": "2021-08-01T00:00:00.000Z",
+  "formattedDate": "August 1, 2021",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "welcome",
+    "permalink": "/blog/2021/08/26/welcome"
+  },
+  "nextItem": {
+    "title": "long-blog-post",
+    "permalink": "/blog/2019/05/29/long-blog-post"
+  }
+}
