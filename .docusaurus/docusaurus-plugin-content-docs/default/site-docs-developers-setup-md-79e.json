@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Developers/Setup",
+  "id": "Developers/Setup",
+  "title": "Setup",
+  "description": "Install required dependencies",
+  "source": "@site/docs/Developers/Setup.md",
+  "sourceDirName": "Developers",
+  "slug": "/Developers/Setup",
+  "permalink": "/docs/Developers/Setup",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "Title": "Setup"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Developers/Overview"
+  },
+  "next": {
+    "title": "Obtain, Compile, Upload",
+    "permalink": "/docs/Developers/Obtain-Compile-Upload"
+  }
+}

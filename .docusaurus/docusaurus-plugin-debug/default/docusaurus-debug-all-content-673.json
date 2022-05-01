@@ -1,0 +1,1631 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/aidas/Documents/GitHub/IDEP-Docs/sidebars.js",
+          "contentPath": "/Users/aidas/Documents/GitHub/IDEP-Docs/docs",
+          "contentPathLocalized": "/Users/aidas/Documents/GitHub/IDEP-Docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "Client/Auth",
+              "id": "Client/Auth",
+              "title": "Auth",
+              "description": "The auth module is responsible for specifying the base transaction and account types for an application.",
+              "source": "@site/docs/Client/Auth.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Auth",
+              "permalink": "/docs/Client/Auth",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Auth.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Auth"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Client Introduction",
+                "permalink": "/docs/Client/Introduction"
+              },
+              "next": {
+                "title": "Gov",
+                "permalink": "/docs/Client/Gov"
+              }
+            },
+            {
+              "unversionedId": "Client/Bank",
+              "id": "Client/Bank",
+              "title": "Bank",
+              "description": "The bank module is responsible for handling multi-asset coin transfers between accounts and tracking special-case",
+              "source": "@site/docs/Client/Bank.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Bank",
+              "permalink": "/docs/Client/Bank",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Bank.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Bank"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Gov",
+                "permalink": "/docs/Client/Gov"
+              },
+              "next": {
+                "title": "Keys",
+                "permalink": "/docs/Client/Keys"
+              }
+            },
+            {
+              "unversionedId": "Client/Gov",
+              "id": "Client/Gov",
+              "title": "Gov",
+              "description": "The gov module is responsible for the basic functionalities of governance for the IDEP Network.",
+              "source": "@site/docs/Client/Gov.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Gov",
+              "permalink": "/docs/Client/Gov",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Gov.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Gov"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Auth",
+                "permalink": "/docs/Client/Auth"
+              },
+              "next": {
+                "title": "Bank",
+                "permalink": "/docs/Client/Bank"
+              }
+            },
+            {
+              "unversionedId": "Client/Introduction",
+              "id": "Client/Introduction",
+              "title": "Client Introduction",
+              "description": "iond is the command line client for the IDEP Network. Users are able to do multiple things including send transactions and",
+              "source": "@site/docs/Client/Introduction.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Introduction",
+              "permalink": "/docs/Client/Introduction",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Client Introduction"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "IDENTT",
+                "permalink": "/docs/CoreModules/IDENTT"
+              },
+              "next": {
+                "title": "Auth",
+                "permalink": "/docs/Client/Auth"
+              }
+            },
+            {
+              "unversionedId": "Client/Keys",
+              "id": "Client/Keys",
+              "title": "Keys",
+              "description": "Keys allows you to manage your local tendermint keystore (wallets) for iond.",
+              "source": "@site/docs/Client/Keys.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Keys",
+              "permalink": "/docs/Client/Keys",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Keys.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Keys"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Bank",
+                "permalink": "/docs/Client/Bank"
+              },
+              "next": {
+                "title": "Tendermint",
+                "permalink": "/docs/Client/Tendermint"
+              }
+            },
+            {
+              "unversionedId": "Client/Tendermint",
+              "id": "Client/Tendermint",
+              "title": "Tendermint",
+              "description": "Tendermint consensus engine state querying commands.",
+              "source": "@site/docs/Client/Tendermint.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Tendermint",
+              "permalink": "/docs/Client/Tendermint",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Tendermint.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Tendermint"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Keys",
+                "permalink": "/docs/Client/Keys"
+              },
+              "next": {
+                "title": "Tx",
+                "permalink": "/docs/Client/Tx"
+              }
+            },
+            {
+              "unversionedId": "Client/Tx",
+              "id": "Client/Tx",
+              "title": "Tx",
+              "description": "Tx allows you to sign or broadcast transactions",
+              "source": "@site/docs/Client/Tx.md",
+              "sourceDirName": "Client",
+              "slug": "/Client/Tx",
+              "permalink": "/docs/Client/Tx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Tx.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Tx"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Tendermint",
+                "permalink": "/docs/Client/Tendermint"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/Developers/Overview"
+              }
+            },
+            {
+              "unversionedId": "CoreModules/IDENTT",
+              "id": "CoreModules/IDENTT",
+              "title": "IDENTT",
+              "description": "Coming Soon...",
+              "source": "@site/docs/CoreModules/IDENTT.md",
+              "sourceDirName": "CoreModules",
+              "slug": "/CoreModules/IDENTT",
+              "permalink": "/docs/CoreModules/IDENTT",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/CoreModules/IDENTT.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "IDENTT"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Senary App",
+                "permalink": "/docs/CoreModules/SenaryApp"
+              },
+              "next": {
+                "title": "Client Introduction",
+                "permalink": "/docs/Client/Introduction"
+              }
+            },
+            {
+              "unversionedId": "CoreModules/SenaryApp",
+              "id": "CoreModules/SenaryApp",
+              "title": "Senary App",
+              "description": "Coming Soon...",
+              "source": "@site/docs/CoreModules/SenaryApp.md",
+              "sourceDirName": "CoreModules",
+              "slug": "/CoreModules/SenaryApp",
+              "permalink": "/docs/CoreModules/SenaryApp",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/CoreModules/SenaryApp.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Senary App"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Uptake",
+                "permalink": "/docs/CoreModules/Uptake"
+              },
+              "next": {
+                "title": "IDENTT",
+                "permalink": "/docs/CoreModules/IDENTT"
+              }
+            },
+            {
+              "unversionedId": "CoreModules/Uptake",
+              "id": "CoreModules/Uptake",
+              "title": "Uptake",
+              "description": "modules",
+              "source": "@site/docs/CoreModules/Uptake.md",
+              "sourceDirName": "CoreModules",
+              "slug": "/CoreModules/Uptake",
+              "permalink": "/docs/CoreModules/Uptake",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/CoreModules/Uptake.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Uptake"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Support / Troubleshooting",
+                "permalink": "/docs/Wallets/support"
+              },
+              "next": {
+                "title": "Senary App",
+                "permalink": "/docs/CoreModules/SenaryApp"
+              }
+            },
+            {
+              "unversionedId": "Developers/Interacting-with-on-chain-contract",
+              "id": "Developers/Interacting-with-on-chain-contract",
+              "title": "Interacting with on-chain contract",
+              "description": "Initialize",
+              "source": "@site/docs/Developers/Interacting-with-on-chain-contract.md",
+              "sourceDirName": "Developers",
+              "slug": "/Developers/Interacting-with-on-chain-contract",
+              "permalink": "/docs/Developers/Interacting-with-on-chain-contract",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Interacting-with-on-chain-contract.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Interacting with on-chain contract"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Obtain, Compile, Upload",
+                "permalink": "/docs/Developers/Obtain-Compile-Upload"
+              },
+              "next": {
+                "title": "Validators Overview",
+                "permalink": "/docs/Validators/ValidatorsOverview"
+              }
+            },
+            {
+              "unversionedId": "Developers/Obtain-Compile-Upload",
+              "id": "Developers/Obtain-Compile-Upload",
+              "title": "Obtain, Compile, Upload",
+              "description": "Obtain",
+              "source": "@site/docs/Developers/Obtain-Compile-Upload.md",
+              "sourceDirName": "Developers",
+              "slug": "/Developers/Obtain-Compile-Upload",
+              "permalink": "/docs/Developers/Obtain-Compile-Upload",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Obtain-Compile-Upload.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Obtain, Compile, Upload"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Setup",
+                "permalink": "/docs/Developers/Setup"
+              },
+              "next": {
+                "title": "Interacting with on-chain contract",
+                "permalink": "/docs/Developers/Interacting-with-on-chain-contract"
+              }
+            },
+            {
+              "unversionedId": "Developers/Overview",
+              "id": "Developers/Overview",
+              "title": "Overview",
+              "description": "This section is deprecated and will be updated soon",
+              "source": "@site/docs/Developers/Overview.md",
+              "sourceDirName": "Developers",
+              "slug": "/Developers/Overview",
+              "permalink": "/docs/Developers/Overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Overview"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Tx",
+                "permalink": "/docs/Client/Tx"
+              },
+              "next": {
+                "title": "Setup",
+                "permalink": "/docs/Developers/Setup"
+              }
+            },
+            {
+              "unversionedId": "Developers/Setup",
+              "id": "Developers/Setup",
+              "title": "Setup",
+              "description": "Install required dependencies",
+              "source": "@site/docs/Developers/Setup.md",
+              "sourceDirName": "Developers",
+              "slug": "/Developers/Setup",
+              "permalink": "/docs/Developers/Setup",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "Title": "Setup"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/Developers/Overview"
+              },
+              "next": {
+                "title": "Obtain, Compile, Upload",
+                "permalink": "/docs/Developers/Obtain-Compile-Upload"
+              }
+            },
+            {
+              "unversionedId": "GettingStarted/Introduction",
+              "id": "GettingStarted/Introduction",
+              "title": "Introduction",
+              "description": "OverviewBanner",
+              "source": "@site/docs/GettingStarted/Introduction.md",
+              "sourceDirName": "GettingStarted",
+              "slug": "/GettingStarted/Introduction",
+              "permalink": "/docs/GettingStarted/Introduction",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Introduction"
+              },
+              "sidebar": "Docs",
+              "next": {
+                "title": "IDEP Litepaper",
+                "permalink": "/docs/GettingStarted/Litepaper"
+              }
+            },
+            {
+              "unversionedId": "GettingStarted/Litepaper",
+              "id": "GettingStarted/Litepaper",
+              "title": "IDEP Litepaper",
+              "description": "coverimage",
+              "source": "@site/docs/GettingStarted/Litepaper.md",
+              "sourceDirName": "GettingStarted",
+              "slug": "/GettingStarted/Litepaper",
+              "permalink": "/docs/GettingStarted/Litepaper",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Litepaper.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "IDEP Litepaper"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/GettingStarted/Introduction"
+              },
+              "next": {
+                "title": "Public Roadmap",
+                "permalink": "/docs/KnowledgeBase/Roadmap"
+              }
+            },
+            {
+              "unversionedId": "GettingStarted/Welcome",
+              "id": "GettingStarted/Welcome",
+              "title": "Welcome",
+              "description": "Welcome to IDEP Docs.",
+              "source": "@site/docs/GettingStarted/Welcome.md",
+              "sourceDirName": "GettingStarted",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Welcome.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Welcome",
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "IDEP Litepaper",
+                "permalink": "/docs/GettingStarted/Litepaper"
+              },
+              "next": {
+                "title": "Joining IDEP's Public Testnet Denali",
+                "permalink": "/docs/Guides/Denali"
+              }
+            },
+            {
+              "unversionedId": "Guides/Denali",
+              "id": "Guides/Denali",
+              "title": "Joining IDEP's Public Testnet Denali",
+              "description": "Denali",
+              "source": "@site/docs/Guides/Denali.md",
+              "sourceDirName": "Guides",
+              "slug": "/Guides/Denali",
+              "permalink": "/docs/Guides/Denali",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Denali.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Joining IDEP's Public Testnet Denali"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Initialization",
+                "permalink": "/docs/Guides/Initialization"
+              },
+              "next": {
+                "title": "Keys",
+                "permalink": "/docs/Guides/Keys"
+              }
+            },
+            {
+              "unversionedId": "Guides/Initialization",
+              "id": "Guides/Initialization",
+              "title": "Initialization",
+              "description": "Manual Setup of a new Node",
+              "source": "@site/docs/Guides/Initialization.md",
+              "sourceDirName": "Guides",
+              "slug": "/Guides/Initialization",
+              "permalink": "/docs/Guides/Initialization",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Initialization.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "Title": "Initialization"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Installation",
+                "permalink": "/docs/Guides/Installation"
+              },
+              "next": {
+                "title": "Joining IDEP's Public Testnet Denali",
+                "permalink": "/docs/Guides/Denali"
+              }
+            },
+            {
+              "unversionedId": "Guides/Installation",
+              "id": "Guides/Installation",
+              "title": "Installation",
+              "description": "Testnet Binaries",
+              "source": "@site/docs/Guides/Installation.md",
+              "sourceDirName": "Guides",
+              "slug": "/Guides/Installation",
+              "permalink": "/docs/Guides/Installation",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Installation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Installation"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Join as a Validator",
+                "permalink": "/docs/Validators/join-validator-testnet"
+              },
+              "next": {
+                "title": "Initialization",
+                "permalink": "/docs/Guides/Initialization"
+              }
+            },
+            {
+              "unversionedId": "Guides/Keys",
+              "id": "Guides/Keys",
+              "title": "Keys",
+              "description": "Helpful commands for validators regarding keys",
+              "source": "@site/docs/Guides/Keys.md",
+              "sourceDirName": "Guides",
+              "slug": "/Guides/Keys",
+              "permalink": "/docs/Guides/Keys",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Keys.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Keys"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Joining IDEP's Public Testnet Denali",
+                "permalink": "/docs/Guides/Denali"
+              },
+              "next": {
+                "title": "References",
+                "permalink": "/docs/Resources/References"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Auth",
+                "permalink": "/docs/Client/Auth"
+              }
+            },
+            {
+              "unversionedId": "KnowledgeBase/Branding-guide",
+              "id": "KnowledgeBase/Branding-guide",
+              "title": "Branding Guide",
+              "description": "Thank you for building your dapp with IDEP. This makes us happy!",
+              "source": "@site/docs/KnowledgeBase/Branding-guide.md",
+              "sourceDirName": "KnowledgeBase",
+              "slug": "/KnowledgeBase/Branding-guide",
+              "permalink": "/docs/KnowledgeBase/Branding-guide",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/Branding-guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Branding Guide"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "IPFS-Private-Network",
+                "permalink": "/docs/KnowledgeBase/IPFS"
+              },
+              "next": {
+                "title": "License",
+                "permalink": "/docs/KnowledgeBase/license"
+              }
+            },
+            {
+              "unversionedId": "KnowledgeBase/FAQ",
+              "id": "KnowledgeBase/FAQ",
+              "title": "FAQ",
+              "description": "What are NFTs?",
+              "source": "@site/docs/KnowledgeBase/FAQ.md",
+              "sourceDirName": "KnowledgeBase",
+              "slug": "/KnowledgeBase/FAQ",
+              "permalink": "/docs/KnowledgeBase/FAQ",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/FAQ.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "FAQ"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Public Roadmap",
+                "permalink": "/docs/KnowledgeBase/Roadmap"
+              },
+              "next": {
+                "title": "IPFS-Private-Network",
+                "permalink": "/docs/KnowledgeBase/IPFS"
+              }
+            },
+            {
+              "unversionedId": "KnowledgeBase/IPFS",
+              "id": "KnowledgeBase/IPFS",
+              "title": "IPFS-Private-Network",
+              "description": "We are running an IPFS-Private-Network with the following endpoints publicly available:",
+              "source": "@site/docs/KnowledgeBase/IPFS.md",
+              "sourceDirName": "KnowledgeBase",
+              "slug": "/KnowledgeBase/IPFS",
+              "permalink": "/docs/KnowledgeBase/IPFS",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/IPFS.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "IPFS-Private-Network"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "FAQ",
+                "permalink": "/docs/KnowledgeBase/FAQ"
+              },
+              "next": {
+                "title": "Branding Guide",
+                "permalink": "/docs/KnowledgeBase/Branding-guide"
+              }
+            },
+            {
+              "unversionedId": "KnowledgeBase/license",
+              "id": "KnowledgeBase/license",
+              "title": "License",
+              "description": "License",
+              "source": "@site/docs/KnowledgeBase/license.md",
+              "sourceDirName": "KnowledgeBase",
+              "slug": "/KnowledgeBase/license",
+              "permalink": "/docs/KnowledgeBase/license",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/license.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "License"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Branding Guide",
+                "permalink": "/docs/KnowledgeBase/Branding-guide"
+              },
+              "next": {
+                "title": "Network Protocol",
+                "permalink": "/docs/Protocol/Network-Protocol"
+              }
+            },
+            {
+              "unversionedId": "KnowledgeBase/Roadmap",
+              "id": "KnowledgeBase/Roadmap",
+              "title": "Public Roadmap",
+              "description": "roadmap",
+              "source": "@site/docs/KnowledgeBase/Roadmap.md",
+              "sourceDirName": "KnowledgeBase",
+              "slug": "/KnowledgeBase/Roadmap",
+              "permalink": "/docs/KnowledgeBase/Roadmap",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/Roadmap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Public Roadmap"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "IDEP Litepaper",
+                "permalink": "/docs/GettingStarted/Litepaper"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/KnowledgeBase/FAQ"
+              }
+            },
+            {
+              "unversionedId": "Protocol/Components",
+              "id": "Protocol/Components",
+              "title": "Components",
+              "description": "This section provides an overview of the IDEP Network, component by component. For more information, please refer to specific pages which go into more detail.",
+              "source": "@site/docs/Protocol/Components.md",
+              "sourceDirName": "Protocol",
+              "slug": "/Protocol/Components",
+              "permalink": "/docs/Protocol/Components",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Components.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "Title": "Components"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Network Protocol",
+                "permalink": "/docs/Protocol/Network-Protocol"
+              },
+              "next": {
+                "title": "Transactions",
+                "permalink": "/docs/Protocol/Transactions"
+              }
+            },
+            {
+              "unversionedId": "Protocol/Intel-SGX",
+              "id": "Protocol/Intel-SGX",
+              "title": "Intel-SGX",
+              "description": "Overview",
+              "source": "@site/docs/Protocol/Intel-SGX.md",
+              "sourceDirName": "Protocol",
+              "slug": "/Protocol/Intel-SGX",
+              "permalink": "/docs/Protocol/Intel-SGX",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Intel-SGX.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "Title": "Intel SGX"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Transactions",
+                "permalink": "/docs/Protocol/Transactions"
+              },
+              "next": {
+                "title": "IDEP Wallet Guide",
+                "permalink": "/docs/Wallets/wallet-guide"
+              }
+            },
+            {
+              "unversionedId": "Protocol/Network-Protocol",
+              "id": "Protocol/Network-Protocol",
+              "title": "Network Protocol",
+              "description": "The IDEP Network Protocol is run by network validators, and consists of two main components: trusted and untrusted sections. The untrusted section is responsible for all untrusted code used by validators in the network, including Cosmos-SDK code, tendermint code, and the creation of enclaves (trusted components). The trusted component (the enclave) is responsible for executing CosmWasm based contracts, executing any functions designated within these contracts, and reading and writing (encrypted data) to Tendermint state during execution.",
+              "source": "@site/docs/Protocol/Network-Protocol.md",
+              "sourceDirName": "Protocol",
+              "slug": "/Protocol/Network-Protocol",
+              "permalink": "/docs/Protocol/Network-Protocol",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Network-Protocol.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Network Protocol"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "License",
+                "permalink": "/docs/KnowledgeBase/license"
+              },
+              "next": {
+                "title": "Components",
+                "permalink": "/docs/Protocol/Components"
+              }
+            },
+            {
+              "unversionedId": "Protocol/Transactions",
+              "id": "Protocol/Transactions",
+              "title": "Transactions",
+              "description": "1. User retrieves pk_io (curve secp256k1) from the blockchain to derive a shared key using ECDH. When the user submits a transaction, the body of the message contains the user’s public key and signature (standard Tendermint transaction) enabling validators to also derive a shared key using ECDH.",
+              "source": "@site/docs/Protocol/Transactions.md",
+              "sourceDirName": "Protocol",
+              "slug": "/Protocol/Transactions",
+              "permalink": "/docs/Protocol/Transactions",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Transactions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "Title": "Transactions"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Components",
+                "permalink": "/docs/Protocol/Components"
+              },
+              "next": {
+                "title": "Intel-SGX",
+                "permalink": "/docs/Protocol/Intel-SGX"
+              }
+            },
+            {
+              "unversionedId": "Resources/References",
+              "id": "Resources/References",
+              "title": "References",
+              "description": "- IBC Overview",
+              "source": "@site/docs/Resources/References.md",
+              "sourceDirName": "Resources",
+              "slug": "/Resources/References",
+              "permalink": "/docs/Resources/References",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Resources/References.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "References"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Keys",
+                "permalink": "/docs/Guides/Keys"
+              }
+            },
+            {
+              "unversionedId": "Validators/hardware-compliance",
+              "id": "Validators/hardware-compliance",
+              "title": "Hardware Compliance",
+              "description": "Information Regarding SGX Compliance and IDEP Network",
+              "source": "@site/docs/Validators/hardware-compliance.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/hardware-compliance",
+              "permalink": "/docs/Validators/hardware-compliance",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/hardware-compliance.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Hardware Compliance"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Validators Overview",
+                "permalink": "/docs/Validators/ValidatorsOverview"
+              },
+              "next": {
+                "title": "VPS Compliance",
+                "permalink": "/docs/Validators/vps-compliance"
+              }
+            },
+            {
+              "unversionedId": "Validators/join-validator-testnet",
+              "id": "Validators/join-validator-testnet",
+              "title": "Join as a Validator",
+              "description": "How to become a validator on IDEP Network",
+              "source": "@site/docs/Validators/join-validator-testnet.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/join-validator-testnet",
+              "permalink": "/docs/Validators/join-validator-testnet",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/join-validator-testnet.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Join as a Validator"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Run Full Node",
+                "permalink": "/docs/Validators/run-full-node"
+              },
+              "next": {
+                "title": "Installation",
+                "permalink": "/docs/Guides/Installation"
+              }
+            },
+            {
+              "unversionedId": "Validators/run-full-node",
+              "id": "Validators/run-full-node",
+              "title": "Run Full Node",
+              "description": "How To Join IDEP Network as a Full Node",
+              "source": "@site/docs/Validators/run-full-node.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/run-full-node",
+              "permalink": "/docs/Validators/run-full-node",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/run-full-node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Run Full Node"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Prepare your Hardware",
+                "permalink": "/docs/Validators/setup-sgx"
+              },
+              "next": {
+                "title": "Join as a Validator",
+                "permalink": "/docs/Validators/join-validator-testnet"
+              }
+            },
+            {
+              "unversionedId": "Validators/setup-sgx",
+              "id": "Validators/setup-sgx",
+              "title": "Prepare your Hardware",
+              "description": "Ensure your hardware is IDEP Node Compliant.",
+              "source": "@site/docs/Validators/setup-sgx.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/setup-sgx",
+              "permalink": "/docs/Validators/setup-sgx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/setup-sgx.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Prepare your Hardware"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "VPS Compliance",
+                "permalink": "/docs/Validators/vps-compliance"
+              },
+              "next": {
+                "title": "Run Full Node",
+                "permalink": "/docs/Validators/run-full-node"
+              }
+            },
+            {
+              "unversionedId": "Validators/ValidatorsOverview",
+              "id": "Validators/ValidatorsOverview",
+              "title": "Validators Overview",
+              "description": "Introduction",
+              "source": "@site/docs/Validators/ValidatorsOverview.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/ValidatorsOverview",
+              "permalink": "/docs/Validators/ValidatorsOverview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/ValidatorsOverview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Validators Overview"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Interacting with on-chain contract",
+                "permalink": "/docs/Developers/Interacting-with-on-chain-contract"
+              },
+              "next": {
+                "title": "Hardware Compliance",
+                "permalink": "/docs/Validators/hardware-compliance"
+              }
+            },
+            {
+              "unversionedId": "Validators/vps-compliance",
+              "id": "Validators/vps-compliance",
+              "title": "VPS Compliance",
+              "description": "Information Regarding SGX Compliance for VPS options and IDEP Network",
+              "source": "@site/docs/Validators/vps-compliance.md",
+              "sourceDirName": "Validators",
+              "slug": "/Validators/vps-compliance",
+              "permalink": "/docs/Validators/vps-compliance",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/vps-compliance.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "VPS Compliance"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Hardware Compliance",
+                "permalink": "/docs/Validators/hardware-compliance"
+              },
+              "next": {
+                "title": "Prepare your Hardware",
+                "permalink": "/docs/Validators/setup-sgx"
+              }
+            },
+            {
+              "unversionedId": "Wallets/support",
+              "id": "Wallets/support",
+              "title": "Support / Troubleshooting",
+              "description": "If you have questions or are having trouble setting up or using your wallet of choice, please make sure you've read",
+              "source": "@site/docs/Wallets/support.md",
+              "sourceDirName": "Wallets",
+              "slug": "/Wallets/support",
+              "permalink": "/docs/Wallets/support",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wallets/support.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Support / Troubleshooting"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "IDEP Wallet Guide",
+                "permalink": "/docs/Wallets/wallet-guide"
+              },
+              "next": {
+                "title": "Uptake",
+                "permalink": "/docs/CoreModules/Uptake"
+              }
+            },
+            {
+              "unversionedId": "Wallets/wallet-guide",
+              "id": "Wallets/wallet-guide",
+              "title": "IDEP Wallet Guide",
+              "description": "Work in progress.",
+              "source": "@site/docs/Wallets/wallet-guide.md",
+              "sourceDirName": "Wallets",
+              "slug": "/Wallets/wallet-guide",
+              "permalink": "/docs/Wallets/wallet-guide",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Wallets/wallet-guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "IDEP Wallet Guide"
+              },
+              "sidebar": "Docs",
+              "previous": {
+                "title": "Intel-SGX",
+                "permalink": "/docs/Protocol/Intel-SGX"
+              },
+              "next": {
+                "title": "Support / Troubleshooting",
+                "permalink": "/docs/Wallets/support"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Client/Auth"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Bank"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Gov"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Keys"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tendermint"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tx"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "CoreModules",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/IDENTT"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/SenaryApp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/Uptake"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Developers",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Developers/Interacting-with-on-chain-contract"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Obtain-Compile-Upload"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Setup"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "GettingStarted",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "GettingStarted/Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "GettingStarted/Litepaper"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "GettingStarted/Welcome"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Guides",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Guides/Denali"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Initialization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Keys"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "KnowledgeBase",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/Branding-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/FAQ"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/IPFS"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/Roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/license"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Protocol",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Intel-SGX"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Network-Protocol"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Transactions"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Resources",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Resources/References"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Validators",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Validators/ValidatorsOverview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/hardware-compliance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/join-validator-testnet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/run-full-node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/setup-sgx"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/vps-compliance"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Wallets",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Wallets/support"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Wallets/wallet-guide"
+                  }
+                ]
+              }
+            ],
+            "Docs": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "GettingStarted/Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "GettingStarted/Litepaper"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Knowledge Base",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/Roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/FAQ"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/IPFS"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/Branding-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "KnowledgeBase/license"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Protocol",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Network-Protocol"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Transactions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Protocol/Intel-SGX"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Wallets",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Wallets/wallet-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Wallets/support"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Core Modules",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/Uptake"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/SenaryApp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "CoreModules/IDENTT"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Client",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Client/Introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Auth"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Gov"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Bank"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Keys"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tendermint"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Client/Tx"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Developers",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Developers/Overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Setup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Obtain-Compile-Upload"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Developers/Interacting-with-on-chain-contract"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Validators",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Validators/ValidatorsOverview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/hardware-compliance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/vps-compliance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/setup-sgx"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/run-full-node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Validators/join-validator-testnet"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Guides/Installation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Initialization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Denali"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Guides/Keys"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Resources",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Resources/References"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          },
+          "mainDocId": "GettingStarted/Welcome",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "/2021/08/26/welcome",
+          "metadata": {
+            "permalink": "/blog/2021/08/26/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "welcome",
+            "description": "",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [],
+            "readingTime": 0,
+            "truncated": false,
+            "authors": [],
+            "frontMatter": {},
+            "nextItem": {
+              "title": "mdx-blog-post",
+              "permalink": "/blog/2021/08/01/mdx-blog-post"
+            }
+          },
+          "content": ""
+        },
+        {
+          "id": "/2021/08/01/mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/2021/08/01/mdx-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "mdx-blog-post",
+            "description": "",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [],
+            "readingTime": 0,
+            "truncated": false,
+            "authors": [],
+            "frontMatter": {},
+            "prevItem": {
+              "title": "welcome",
+              "permalink": "/blog/2021/08/26/welcome"
+            },
+            "nextItem": {
+              "title": "long-blog-post",
+              "permalink": "/blog/2019/05/29/long-blog-post"
+            }
+          },
+          "content": ""
+        },
+        {
+          "id": "/2019/05/29/long-blog-post",
+          "metadata": {
+            "permalink": "/blog/2019/05/29/long-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "long-blog-post",
+            "description": "",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [],
+            "readingTime": 0,
+            "truncated": false,
+            "authors": [],
+            "frontMatter": {},
+            "prevItem": {
+              "title": "mdx-blog-post",
+              "permalink": "/blog/2021/08/01/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "first-blog-post",
+              "permalink": "/blog/2019/05/28/first-blog-post"
+            }
+          },
+          "content": ""
+        },
+        {
+          "id": "/2019/05/28/first-blog-post",
+          "metadata": {
+            "permalink": "/blog/2019/05/28/first-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "first-blog-post",
+            "description": "",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [],
+            "readingTime": 0,
+            "truncated": false,
+            "authors": [],
+            "frontMatter": {},
+            "prevItem": {
+              "title": "long-blog-post",
+              "permalink": "/blog/2019/05/29/long-blog-post"
+            }
+          },
+          "content": ""
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "/2021/08/26/welcome",
+            "/2021/08/01/mdx-blog-post",
+            "/2019/05/29/long-blog-post",
+            "/2019/05/28/first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {}
+}

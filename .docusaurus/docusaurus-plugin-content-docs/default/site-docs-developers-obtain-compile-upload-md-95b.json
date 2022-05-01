@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Developers/Obtain-Compile-Upload",
+  "id": "Developers/Obtain-Compile-Upload",
+  "title": "Obtain, Compile, Upload",
+  "description": "Obtain",
+  "source": "@site/docs/Developers/Obtain-Compile-Upload.md",
+  "sourceDirName": "Developers",
+  "slug": "/Developers/Obtain-Compile-Upload",
+  "permalink": "/docs/Developers/Obtain-Compile-Upload",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Obtain-Compile-Upload.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Obtain, Compile, Upload"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/Developers/Setup"
+  },
+  "next": {
+    "title": "Interacting with on-chain contract",
+    "permalink": "/docs/Developers/Interacting-with-on-chain-contract"
+  }
+}

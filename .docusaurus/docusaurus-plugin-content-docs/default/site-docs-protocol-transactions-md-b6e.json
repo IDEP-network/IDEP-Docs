@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Protocol/Transactions",
+  "id": "Protocol/Transactions",
+  "title": "Transactions",
+  "description": "1. User retrieves pk_io (curve secp256k1) from the blockchain to derive a shared key using ECDH. When the user submits a transaction, the body of the message contains the user’s public key and signature (standard Tendermint transaction) enabling validators to also derive a shared key using ECDH.",
+  "source": "@site/docs/Protocol/Transactions.md",
+  "sourceDirName": "Protocol",
+  "slug": "/Protocol/Transactions",
+  "permalink": "/docs/Protocol/Transactions",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Transactions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "Title": "Transactions"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Components",
+    "permalink": "/docs/Protocol/Components"
+  },
+  "next": {
+    "title": "Intel-SGX",
+    "permalink": "/docs/Protocol/Intel-SGX"
+  }
+}

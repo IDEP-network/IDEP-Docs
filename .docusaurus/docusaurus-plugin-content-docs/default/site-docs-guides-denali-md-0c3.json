@@ -1,21 +1,25 @@
 {
   "unversionedId": "Guides/Denali",
   "id": "Guides/Denali",
-  "isDocsHomePage": false,
   "title": "Joining IDEP's Public Testnet Denali",
   "description": "Denali",
   "source": "@site/docs/Guides/Denali.md",
+  "sourceDirName": "Guides",
   "slug": "/Guides/Denali",
-  "permalink": "/Guides/Denali",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Guides/Denali.md",
+  "permalink": "/docs/Guides/Denali",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guides/Denali.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Joining IDEP's Public Testnet Denali"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "Initialization",
-    "permalink": "/Guides/Initialization"
+    "permalink": "/docs/Guides/Initialization"
   },
   "next": {
     "title": "Keys",
-    "permalink": "/Guides/Keys"
+    "permalink": "/docs/Guides/Keys"
   }
 }

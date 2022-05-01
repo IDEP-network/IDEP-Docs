@@ -1,21 +1,25 @@
 {
   "unversionedId": "KnowledgeBase/IPFS",
   "id": "KnowledgeBase/IPFS",
-  "isDocsHomePage": false,
   "title": "IPFS-Private-Network",
   "description": "We are running an IPFS-Private-Network with the following endpoints publicly available:",
   "source": "@site/docs/KnowledgeBase/IPFS.md",
+  "sourceDirName": "KnowledgeBase",
   "slug": "/KnowledgeBase/IPFS",
-  "permalink": "/KnowledgeBase/IPFS",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/IPFS.md",
+  "permalink": "/docs/KnowledgeBase/IPFS",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/IPFS.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "IPFS-Private-Network"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "FAQ",
-    "permalink": "/KnowledgeBase/FAQ"
+    "permalink": "/docs/KnowledgeBase/FAQ"
   },
   "next": {
     "title": "Branding Guide",
-    "permalink": "/KnowledgeBase/Branding-guide"
+    "permalink": "/docs/KnowledgeBase/Branding-guide"
   }
 }

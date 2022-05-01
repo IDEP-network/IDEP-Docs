@@ -1,21 +1,25 @@
 {
   "unversionedId": "Validators/ValidatorsOverview",
   "id": "Validators/ValidatorsOverview",
-  "isDocsHomePage": false,
   "title": "Validators Overview",
   "description": "Introduction",
   "source": "@site/docs/Validators/ValidatorsOverview.md",
+  "sourceDirName": "Validators",
   "slug": "/Validators/ValidatorsOverview",
-  "permalink": "/Validators/ValidatorsOverview",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Validators/ValidatorsOverview.md",
+  "permalink": "/docs/Validators/ValidatorsOverview",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/ValidatorsOverview.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Validators Overview"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "Interacting with on-chain contract",
-    "permalink": "/SmartContracts/Interacting-with-on-chain-contract"
+    "permalink": "/docs/Developers/Interacting-with-on-chain-contract"
   },
   "next": {
-    "title": "Installation",
-    "permalink": "/Guides/Installation"
+    "title": "Hardware Compliance",
+    "permalink": "/docs/Validators/hardware-compliance"
   }
 }

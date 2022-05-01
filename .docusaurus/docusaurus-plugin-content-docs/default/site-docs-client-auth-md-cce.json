@@ -1,21 +1,25 @@
 {
   "unversionedId": "Client/Auth",
   "id": "Client/Auth",
-  "isDocsHomePage": false,
   "title": "Auth",
   "description": "The auth module is responsible for specifying the base transaction and account types for an application.",
   "source": "@site/docs/Client/Auth.md",
+  "sourceDirName": "Client",
   "slug": "/Client/Auth",
-  "permalink": "/Client/Auth",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/Client/Auth.md",
+  "permalink": "/docs/Client/Auth",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client/Auth.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Auth"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "Client Introduction",
-    "permalink": "/Client/Introduction"
+    "permalink": "/docs/Client/Introduction"
   },
   "next": {
     "title": "Gov",
-    "permalink": "/Client/Gov"
+    "permalink": "/docs/Client/Gov"
   }
 }

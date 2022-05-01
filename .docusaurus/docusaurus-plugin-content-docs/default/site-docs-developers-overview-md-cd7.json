@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Developers/Overview",
+  "id": "Developers/Overview",
+  "title": "Overview",
+  "description": "This section is deprecated and will be updated soon",
+  "source": "@site/docs/Developers/Overview.md",
+  "sourceDirName": "Developers",
+  "slug": "/Developers/Overview",
+  "permalink": "/docs/Developers/Overview",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developers/Overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Overview"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Tx",
+    "permalink": "/docs/Client/Tx"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/docs/Developers/Setup"
+  }
+}

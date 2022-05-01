@@ -1,21 +1,25 @@
 {
   "unversionedId": "CoreModules/Uptake",
   "id": "CoreModules/Uptake",
-  "isDocsHomePage": false,
   "title": "Uptake",
   "description": "modules",
   "source": "@site/docs/CoreModules/Uptake.md",
+  "sourceDirName": "CoreModules",
   "slug": "/CoreModules/Uptake",
-  "permalink": "/CoreModules/Uptake",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/CoreModules/Uptake.md",
+  "permalink": "/docs/CoreModules/Uptake",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/CoreModules/Uptake.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Uptake"
+  },
+  "sidebar": "Docs",
   "previous": {
-    "title": "License",
-    "permalink": "/KnowledgeBase/license"
+    "title": "Support / Troubleshooting",
+    "permalink": "/docs/Wallets/support"
   },
   "next": {
     "title": "Senary App",
-    "permalink": "/CoreModules/SenaryApp"
+    "permalink": "/docs/CoreModules/SenaryApp"
   }
 }

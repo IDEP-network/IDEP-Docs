@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Validators/run-full-node",
+  "id": "Validators/run-full-node",
+  "title": "Run Full Node",
+  "description": "How To Join IDEP Network as a Full Node",
+  "source": "@site/docs/Validators/run-full-node.md",
+  "sourceDirName": "Validators",
+  "slug": "/Validators/run-full-node",
+  "permalink": "/docs/Validators/run-full-node",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Validators/run-full-node.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Run Full Node"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Prepare your Hardware",
+    "permalink": "/docs/Validators/setup-sgx"
+  },
+  "next": {
+    "title": "Join as a Validator",
+    "permalink": "/docs/Validators/join-validator-testnet"
+  }
+}

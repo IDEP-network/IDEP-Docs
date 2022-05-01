@@ -1,21 +1,25 @@
 {
   "unversionedId": "CoreModules/IDENTT",
   "id": "CoreModules/IDENTT",
-  "isDocsHomePage": false,
   "title": "IDENTT",
   "description": "Coming Soon...",
   "source": "@site/docs/CoreModules/IDENTT.md",
+  "sourceDirName": "CoreModules",
   "slug": "/CoreModules/IDENTT",
-  "permalink": "/CoreModules/IDENTT",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/CoreModules/IDENTT.md",
+  "permalink": "/docs/CoreModules/IDENTT",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/CoreModules/IDENTT.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "IDENTT"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "Senary App",
-    "permalink": "/CoreModules/SenaryApp"
+    "permalink": "/docs/CoreModules/SenaryApp"
   },
   "next": {
     "title": "Client Introduction",
-    "permalink": "/Client/Introduction"
+    "permalink": "/docs/Client/Introduction"
   }
 }

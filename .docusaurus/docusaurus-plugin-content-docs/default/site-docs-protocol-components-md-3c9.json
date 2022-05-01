@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Protocol/Components",
+  "id": "Protocol/Components",
+  "title": "Components",
+  "description": "This section provides an overview of the IDEP Network, component by component. For more information, please refer to specific pages which go into more detail.",
+  "source": "@site/docs/Protocol/Components.md",
+  "sourceDirName": "Protocol",
+  "slug": "/Protocol/Components",
+  "permalink": "/docs/Protocol/Components",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Protocol/Components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "Title": "Components"
+  },
+  "sidebar": "Docs",
+  "previous": {
+    "title": "Network Protocol",
+    "permalink": "/docs/Protocol/Network-Protocol"
+  },
+  "next": {
+    "title": "Transactions",
+    "permalink": "/docs/Protocol/Transactions"
+  }
+}

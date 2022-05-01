@@ -1,21 +1,25 @@
 {
   "unversionedId": "KnowledgeBase/Branding-guide",
   "id": "KnowledgeBase/Branding-guide",
-  "isDocsHomePage": false,
   "title": "Branding Guide",
   "description": "Thank you for building your dapp with IDEP. This makes us happy!",
   "source": "@site/docs/KnowledgeBase/Branding-guide.md",
+  "sourceDirName": "KnowledgeBase",
   "slug": "/KnowledgeBase/Branding-guide",
-  "permalink": "/KnowledgeBase/Branding-guide",
-  "editUrl": "https://github.com/IDEP-network/IDEP-Docs/docs/KnowledgeBase/Branding-guide.md",
+  "permalink": "/docs/KnowledgeBase/Branding-guide",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/KnowledgeBase/Branding-guide.md",
+  "tags": [],
   "version": "current",
-  "sidebar": "docs",
+  "frontMatter": {
+    "title": "Branding Guide"
+  },
+  "sidebar": "Docs",
   "previous": {
     "title": "IPFS-Private-Network",
-    "permalink": "/KnowledgeBase/IPFS"
+    "permalink": "/docs/KnowledgeBase/IPFS"
   },
   "next": {
     "title": "License",
-    "permalink": "/KnowledgeBase/license"
+    "permalink": "/docs/KnowledgeBase/license"
   }
 }
