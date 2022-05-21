@@ -39,21 +39,21 @@ Your validator will not accept transactions that specify `--gas-price` lower tha
 
 ### 3. Generate a new key pair for yourself (change `<key-alias>` with any word of your choice, this is just for your internal/personal reference):
 ```
-IDEPcli keys add <key-alias>
+ioncli keys add <key-alias>
 ```
 
 :::caution
 BACKUP YOUR MNEMONICS! Please make sure you also backup your validator
 :::
 
-Note: If you already have a key you can import it with the bip39 mnemonic with idepcli keys add `<key-alias>` --recover or with idepcli keys export (exports to stderr!!) & idepcli keys import.
+Note: If you already have a key you can import it with the bip39 mnemonic with ioncli keys add `<key-alias>` --recover or with ioncli keys export (exports to stderr!!) & ioncli keys import.
 
 ### 4. Transfer tokens to your delegator's address:
 This is the idep wallet from which you delegate your funds to you own validator. You must delegate at least 1 IDEP (1000000uidep) from this wallet to your validator.
 
 To create a secret wallet, run:
 ```
-IDEPcli keys add <key-alias>
+ioncli keys add <key-alias>
 ```
 Make sure to backup the mnemonic you got from the above command!
 
@@ -61,7 +61,7 @@ Then transfer funds to address you just created.
 
 ### 5. Check that you have the funds:
 ```
-IDEPcli q bank balances $(secretcli keys show -a <key-alias>)
+ioncli q bank balances $(ioncli keys show -a <key-alias>)
 ```
 If you get the following message, it means that you have no tokens yet:
 
@@ -72,7 +72,7 @@ ERROR: unknown address: account idep1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx does
 remember 1 IDEP = 1,000,000 uidep, and so the command below stakes 100 IDEP.
 
 ```
-IDEPcli tx staking create-validator \
+ioncli tx staking create-validator \
 --amount=100000000uscrt \
 --pubkey=$(iond tendermint show-validator) \
 --identity={KEYBASE_IDENTITY} \
@@ -86,9 +86,9 @@ IDEPcli tx staking create-validator \
 ```
 ### 7. Check that you have been added as a validator:
 ```
-IDEPcli q staking validators | jq '.[] | select(.description.moniker == "<MONIKER>")'
+ioncli q staking validators | jq '.[] | select(.description.moniker == "<MONIKER>")'
 ```
-Or run: `IDEPcli q staking validators | grep moniker`. You should see your moniker listed.
+Or run: `ioncli q staking validators | grep moniker`. You should see your moniker listed.
 
 :::danger
 ### Dangers in running a validator
@@ -113,7 +113,7 @@ Parameters: 11250 blocks out of every 22500-blocks.
 Penalties for downtime:
 
 * Slashing of 0.01% of your and your delegators' staking amount.
-* Jailing for 10 minutes of your validator node. You don't earn block rewards for this period and at the end must manually unjail your node with secretcli tx slashing unjail --from `<key-alias>`.
+* Jailing for 10 minutes of your validator node. You don't earn block rewards for this period and at the end must manually unjail your node with ioncli tx slashing unjail --from `<key-alias>`.
 
 #### Slashing for double-signing
 Conditions for double-signing:
@@ -135,13 +135,13 @@ See Sentry Nodes.
 
 In order to stake more tokens beyond those in the initial transaction, run:
 ```
-IDEPcli tx staking delegate $(IDEPcli keys show <key-alias> --bech=val -a) <amount>uscrt --from <key-alias>
+ioncli tx staking delegate $(ioncli keys show <key-alias> --bech=val -a) <amount>uscrt --from <key-alias>
 ```
 
 ### Editing your Validator
 
 ```
-IDEPcli tx staking edit-validator \
+ioncli tx staking edit-validator \
 --moniker "<new-moniker>" \
 --website "https://idep.network" \
 --identity 6A0D65E29A4CBC8E \
@@ -153,22 +153,22 @@ IDEPcli tx staking edit-validator \
 
 ### Seeing your rewards from being a validator
 ```
-IDEPcli q distribution rewards $(IDEPcli keys show -a <key-alias>)
+ioncli q distribution rewards $(ioncli keys show -a <key-alias>)
 ```
 
 ### Seeing your commissions from your delegators
 ```
-secretcli q distribution commission $(secretcli keys show -a <key-alias> --bech=val)
+ioncli q distribution commission $(ioncli keys show -a <key-alias> --bech=val)
 ```
 
 ### Withdrawing rewards
 ```
-secretcli tx distribution withdraw-rewards $(secretcli keys show --bech=val -a `<key-alias>`) --from `<key-alias>`
+ioncli tx distribution withdraw-rewards $(ioncli keys show --bech=val -a `<key-alias>`) --from `<key-alias>`
 ```
 
 ### Withdrawing rewards+commissions
 ```
-secretcli tx distribution withdraw-rewards $(secretcli keys show --bech=val -a `<key-alias>`) --from `<key-alias>` --commission
+ioncli tx distribution withdraw-rewards $(ioncli keys show --bech=val -a `<key-alias>`) --from `<key-alias>` --commission
 ```
 
 ### Removing your validator
@@ -181,7 +181,7 @@ You are currently unable to modify the `--commission-max-rate` and `--commission
 
 Modifying the commision-rate can be done using this:
 ```
-IDEPcli tx staking edit-validator --commission-rate="0.05" --from <key-alias>
+ioncli tx staking edit-validator --commission-rate="0.05" --from <key-alias>
 ```
 
 ### Slashing
@@ -191,24 +191,24 @@ ___
 
 To unjail your jailed validator
 ```
-IDEPcli tx slashing unjail --from <key-alias>
+ioncli tx slashing unjail --from <key-alias>
 ```
 
 #### Signing Info
 
 To retrieve a validator's signing info:
 ```
-IDEPcli q slashing signing-info <validator-conspub-key>
+ioncli q slashing signing-info <validator-conspub-key>
 ```
 
 #### Query Parameters
 You can get the current slashing parameters via:
 ```
-IDEPcli q slashing params
+ioncli q slashing params
 ```
 
 #### Query Parameters
 You can get the current slashing parameters via:
 ```
-IDEPcli q slashing params
+ioncli q slashing params
 ```

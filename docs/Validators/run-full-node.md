@@ -135,21 +135,21 @@ PUBLIC_KEY=$(iond parse /opt/idep/.sgx_secrets/attestation_cert.der  2> /dev/nul
 echo $PUBLIC_KEY
 ```
 
-### 11. Config `IDEPcli`, to point to a working node and import a key with some $IDEP
-The steps using `IDEPcli` can be run on any machine, they don't need to be on the full node itself. We'll refer to the machine where you are using `IDEPcli` as the "CLI machine" below.
+### 11. Config `ioncli`, to point to a working node and import a key with some $IDEP
+The steps using `ioncli` can be run on any machine, they don't need to be on the full node itself. We'll refer to the machine where you are using `ioncli` as the "CLI machine" below.
 
-To run the steps with `IDEPcli` on another machine, set up the CLI there.
+To run the steps with `ioncli` on another machine, set up the CLI there.
 
-Configure `IDEPcli`. Initially you'll be using the bootstrap node, as you'll need to connect to a running node and your own node is not running yet.
+Configure `ioncli`. Initially you'll be using the bootstrap node, as you'll need to connect to a running node and your own node is not running yet.
 ```bash
-IDEPcli config chain-id sanford-x
-IDEPcli config node http://<ip>>:26657/
-IDEPcli config output json
+ioncli config chain-id sanford-x
+ioncli config node http://<ip>>:26657/
+ioncli config output json
 ```
 
 Set up a key. Make sure you back up the mnemonic and the keyring password.
 ```bash
-IDEPcli keys add <key-alias>
+ioncli keys add <key-alias>
 ```
 This will output your address, a 45 character-string starting with `idep1....` Then you can fund it with some $IDEP.
 
@@ -157,14 +157,14 @@ This will output your address, a 45 character-string starting with `idep1....` T
 
 Run this step on the CLI machine. If you're using a different CLI machine than the full node, copy `/opt/idep/.sgx_secrets/attestation_cert.der` from the full node to the CLI machine.
 ```bash
-IDEPcli tx register auth /opt/idep/.sgx_secrets/attestation_cert.der -y --from <key-alias>
+ioncli tx register auth /opt/idep/.sgx_secrets/attestation_cert.der -y --from <key-alias>
 ```
 
 ### 13. Pull & check your node's encrypted seed from the network
 
 Run this step on the CLI machine.
 ```bash
-SEED=$(IDEPcli query register seed $PUBLIC_KEY | cut -c 3-)
+SEED=$(ioncli query register seed $PUBLIC_KEY | cut -c 3-)
 echo $SEED
 ```
 ### 14. Get additional network parameters
@@ -172,7 +172,7 @@ Run this step on the CLI machine.
 
 These are necessary to configure the node before it starts.
 ```bash
-IDEPcli query register idep-network-params
+ioncli query register idep-network-params
 ls -lh ./io-master-cert.der ./node-master-cert.der
 ```
 If you're using a different CLI machine than the validator node, copy `node-master-cert.der` from the CLI machine to the validator node.
@@ -241,15 +241,15 @@ iondd tendermint show-node-id
 ```
 Be sure to point your CLI to your running node instead of the bootstrap node
 ```
-idepcli config node tcp://localhost:26657
+ioncli config node tcp://localhost:26657
 ```
 If someone wants to add you as a peer, have them add the above address to their `persistent_peers` in their `~/.iond/config/config.toml`.
 
-And if someone wants to use your node from their `IDEPcli` then have them run:
+And if someone wants to use your node from their `ioncli` then have them run:
 ```
-idepcli config chain-id Sanford-X
-idepcli config output json
-idepcli config node tcp://<your-public-ip>:26657
+ioncli config chain-id Sanford-X
+ioncli config output json
+ioncli config node tcp://<your-public-ip>:26657
 ```
 
 ### 23. Optional: make your full node into a validator
